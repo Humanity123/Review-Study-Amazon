@@ -17,9 +17,12 @@ def store_links_in_page(address, driver):
 		answer = driver.find_element_by_xpath('//ul[@id="s-results-list-atf"]')
 		results = answer.find_elements_by_xpath('./li')
 
-		next_page = driver.find_element_by_xpath('//a[@id="pagnNextLink"]')
-		next_link = next_page.get_attribute('href')
-
+		try:
+			next_page = driver.find_element_by_xpath('//a[@id="pagnNextLink"]')
+			next_link = next_page.get_attribute('href')
+		except:
+			print("hello")
+			next_link=0
 		# print(len(results))
 	
 		for result in results:
@@ -36,11 +39,12 @@ def store_links_in_page(address, driver):
 		    # print("{} : {} ({})".format(Prod_id, url))
 		my_db.save_changes()
 		# driver.quit()
+		print("success!")
 		return next_link
 	except :
 		print "Error"
 	# driver.quit()
-	return 0
+	return -1
 
 #creates the connection to the database located at $file 
 def initialise_conn(file):
@@ -63,8 +67,8 @@ def spider_all(address):
 	while crt_page:
 		sleep(randint(5,15))
 		ret_val = store_links_in_page(crt_page,driver)
-		if ret_val==0:
-			time.sleep(5)
+		if ret_val==-1:
+			sleep(5)
 			try:
 				driver.quit()
 			except:
@@ -78,9 +82,9 @@ def spider_all(address):
 def main():
 	database_path = "/home/kushagra/Documents/BTP/my_work/tests/pythonsqlite.db"
 	initialise_conn(database_path)
-	my_db.set_table_name("IN_LINKS")
+	my_db.set_table_name("IN_LINKS2")
 	my_db.create_table()
-	spider_all("https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=phones")
+	spider_all("https://www.amazon.in/s/ref=sr_nr_p_n_feature_six_brow_3?fst=as%3Aoff&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031%2Ck%3Aphones%2Cp_n_feature_nine_browse-bin%3A8561127031&keywords=phones&ie=UTF8&qid=1504175999")
 	# my_db.create_table()
 	my_db.get_count()
 	my_db.print_all()

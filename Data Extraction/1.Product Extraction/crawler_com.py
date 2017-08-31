@@ -16,10 +16,11 @@ def store_links_in_page(address, driver):
 
 		answer = driver.find_element_by_xpath('//ul[@id="s-results-list-atf"]')
 		results = answer.find_elements_by_xpath('./li')
-
-		next_page = driver.find_element_by_xpath('//a[@id="pagnNextLink"]')
-		next_link = next_page.get_attribute('href')
-
+		try:
+			next_page = driver.find_element_by_xpath('//a[@id="pagnNextLink"]')
+			next_link = next_page.get_attribute('href')
+		except:
+			next_link=0
 		# print(len(results))
 	
 		for result in results:
@@ -40,7 +41,7 @@ def store_links_in_page(address, driver):
 	except :
 		print "Error"
 	# driver.quit()
-	return 0
+	return -1
 
 #creates the connection to the database located at $file 
 def initialise_conn(file):
@@ -63,8 +64,8 @@ def spider_all(address):
 	while crt_page:
 		sleep(randint(5,15))
 		ret_val = store_links_in_page(crt_page,driver)
-		if ret_val==0:
-			time.sleep(5)
+		if ret_val==-1:
+			sleep(5)
 			try:
 				driver.quit()
 			except:
