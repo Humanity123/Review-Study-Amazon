@@ -8,8 +8,8 @@ from datetime import datetime
 database_path_links = "/home/gulab/pythonsqlite.db"
 database_path_reviews = "/home/gulab/pythonsqlite3.db"
 
-rev_table_name = "COM_REV"
-lin_table_name = "COM_LINKS"
+rev_table_name = "UK_REV"
+lin_table_name = "UK_LINKS"
 
 def store_reviews_in_page(ProdId, address, driver):
 	# driver = webdriver.Firefox()
@@ -47,7 +47,7 @@ def store_reviews_in_page(ProdId, address, driver):
 			date = date.text.split(" ")
 			# date = date.split(" ")
 			date = " ".join(date[1:])
-			date = datetime.strptime(date,"%B %d, %Y").isoformat()
+			date = datetime.strptime(date,"%d %B %Y").isoformat()
 
 			
 			vote = review.find_element_by_xpath('.//span[@data-hook="review-voting-widget"]')
@@ -98,10 +98,6 @@ def spider_all(ProdId,address):
 			driver = webdriver.Firefox()
 			driver.get(crt_page)
 			# print("hello")
-			# answer = driver.find_element_by_xpath('//a[@id="acrCustomerReviewLink"]')
-			# print(answer)
-			# review_link = answer.get_attribute('href')
-
 			results = driver.find_elements_by_xpath('.//div[@id="reviewSummary"]')
 			result = results[0].find_element_by_xpath('./div/a')
 			review_link = result.get_attribute('href')
@@ -148,7 +144,7 @@ def get_all_reviews():
 		row = links_table.get_next_element()
 
 def main():
-	# crt_page = "https://www.amazon.in/Samsung-G-550FY-On5-Pro-Gold/dp/B01FM7GGFI/ref=sr_1_1?s=electronics&ie=UTF8&qid=1504191327&sr=1-1&keywords=phone"
+	crt_page = "https://www.amazon.in/Samsung-G-550FY-On5-Pro-Gold/dp/B01FM7GGFI/ref=sr_1_1?s=electronics&ie=UTF8&qid=1504191327&sr=1-1&keywords=phone"
 	# driver = webdriver.Firefox()
 	# crt_page = "dhgrfhg"
 	# initialise_conn(database_path)
