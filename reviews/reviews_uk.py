@@ -140,7 +140,11 @@ def get_all_reviews():
 	row = links_table.get_next_element()
 	while row:	
 		print row[0]
-		spider_all(row[0],row[1])
+		ret_val = spider_all(row[0],row[1])
+		if ret_val==-1:
+			print "Unsuccesfull crawl Attempt! Going to next product"
+		print "Unsuccesfull crawl Attempt! Going to next product"
+
 		row = links_table.get_next_element()
 
 def main():
