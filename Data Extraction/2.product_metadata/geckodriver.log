@@ -1069,3 +1069,55 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1504309322702	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
 1504309322716	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
 [Child 27827] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504903094030	geckodriver	INFO	geckodriver 0.18.0
+1504903094036	geckodriver	INFO	Listening on 127.0.0.1:40310
+1504903095276	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Error: GDK_BACKEND does not match available displays
+1504903347095	geckodriver	INFO	geckodriver 0.18.0
+1504903347099	geckodriver	INFO	Listening on 127.0.0.1:56863
+1504903348345	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903349553	Marionette	INFO	Listening on port 39032
+1504903349712	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504903396100	geckodriver	INFO	geckodriver 0.18.0
+1504903396105	geckodriver	INFO	Listening on 127.0.0.1:36450
+1504903397329	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903398365	Marionette	INFO	Listening on port 33939
+1504903398541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504903443258	geckodriver	INFO	geckodriver 0.18.0
+1504903443265	geckodriver	INFO	Listening on 127.0.0.1:55595
+1504903444484	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903486539	geckodriver	INFO	geckodriver 0.18.0
+1504903486545	geckodriver	INFO	Listening on 127.0.0.1:33856
+1504903487793	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903488983	Marionette	INFO	Listening on port 37844
+1504903489146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504903570147	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1504903624859	geckodriver	INFO	geckodriver 0.18.0
+1504903624862	geckodriver	INFO	Listening on 127.0.0.1:36225
+1504903626085	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903627134	Marionette	INFO	Listening on port 36989
+1504903627292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504903651825	geckodriver	INFO	geckodriver 0.18.0
+1504903651832	geckodriver	INFO	Listening on 127.0.0.1:60285
+1504903653091	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903654170	Marionette	INFO	Listening on port 41597
+1504903654342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504903996665	geckodriver	INFO	geckodriver 0.18.0
+1504903996672	geckodriver	INFO	Listening on 127.0.0.1:41403
+1504903997925	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display ":1001".
+II 1
+1504903999191	Marionette	INFO	Listening on port 38423
+1504903999361	Marionette	WARN	TLS certificate errors will be ignored for this session

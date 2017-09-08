@@ -1,12 +1,19 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import SQLite1 as my_db
 from random import randint
 from time import sleep
 from datetime import datetime
 
-database_path_links = "/home/gulab/pythonsqlite.db"
-database_path_reviews = "/home/gulab/pythonsqlite3.db"
+#redirecting output display when using ssh server
+display = Display(visible=0, size=(1000, 800))
+display.start()
+
+database_dir = "/home/bt2/14CS10055/BTP_Resources/Data"
+database_path_links = database_dir + "/links.db"
+database_path_reviews = database_dir + "/reviews.db"
+database_path_prod =  database_dir + "/products.db"
 
 rev_table_name = "IN_REV"
 lin_table_name = "IN_LINKS"
@@ -18,13 +25,15 @@ def store_reviews_in_page(ProdId, address, driver):
 		rev_table.create_connection(database_path_reviews)
 		rev_table.set_table_name(rev_table_name)
 		driver.get(address)
-
-		# driver.get(review_link)
-		answer = driver.find_element_by_xpath('//div[@id="cm_cr-review_list"]')
-		# print(answer)
-		results = answer.find_elements_by_xpath('./div[@data-hook="review"]')
-		# print(len(results))
-
+		print "Got Page successfully!!"
+		try:
+			# driver.get(review_link)
+			answer = driver.find_element_by_xpath('//div[@id="cm_cr-review_list"]')
+			# print(answer)
+			results = answer.find_elements_by_xpath('./div[@data-hook="review"]')
+			# print(len(results))
+		except:
+			results = []
 		try:
 			answer = driver.find_element_by_xpath('//ul[@class="a-pagination"]')
 			# print(answer)
@@ -96,8 +105,10 @@ def spider_all(ProdId,address):
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
+			print "Firefox Successfully!!"
 			driver.get(crt_page)
 			# print("hello")
+			answer = driver.find_element_by_xpath('//div[@id="rightCol"]')
 			answer = driver.find_element_by_xpath('//a[@id="acrCustomerReviewLink"]')
 			# print(answer)
 			review_link = answer.get_attribute('href')
@@ -118,7 +129,7 @@ def spider_all(ProdId,address):
 
 	print "Starting to crawl reviews!"
 	while crt_page:
-		sleep(randint(5,15))
+		sleep(randint(2,5))
 		ret_val = store_reviews_in_page(ProdId,crt_page,driver)
 		if ret_val==-1:
 			sleep(5)
@@ -140,7 +151,7 @@ def get_all_reviews():
 	while row:	
 		print row[0]
 		ret_val = spider_all(row[0],row[1])
-		if ret_val==-1
+		if ret_val==-1:
 			print "Unsuccesfull crawl Attempt! Going to next product"
 		row = links_table.get_next_element()
 
@@ -164,7 +175,8 @@ def main():
 
 	rev_table.create_table_reviews()
 	# rev_table.initialise_cursor()
-	get_all_reviews()
+	
+	# get_all_reviews()
 
 	# spider_all("kusagra",crt_page)
 	# spider_all("https://www.amazon.com/s/ref=sr_ex_n_1?rh=n%3A2335752011%2Ck%3Aphones&bbn=2335752011&keywords=phones&ie=UTF8&qid=1503142996")
