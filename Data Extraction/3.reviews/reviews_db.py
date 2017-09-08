@@ -1,8 +1,9 @@
 #!/usr/bin/python
- 
+
 import sqlite3
 from sqlite3 import Error
 
+#class to handle table in a database
 class database_sqlite:
 	def __init__(self):
 		self.conn = ""
@@ -75,10 +76,6 @@ class database_sqlite:
 		for row in cursor:
 			for data in row:
 				print data
-			# print "ID = ", row[0]
-			# print "\n"
-			# print "ADDRESS = ", row[2]
-			# print "SALARY = ", row[3], "\n"
 
 		print "Operation done successfully";
 
@@ -89,16 +86,9 @@ class database_sqlite:
 		except Exception as e:
 			print e
 def main():
-    database = "/home/gulab/pythonsqlite.db"
- 
-    # create a database connection
+    database = "/review.db"
+
     conn = create_connection(database)
-    # with conn:
-    #     print("1. Query task by priority:")
-    #     select_task_by_priority(conn,1)
- 
-    #     print("2. Query all tasks")
-    #     select_all_tasks(conn)
 
     with conn:
     	insert_link( "arereaggrea", "kushagra")
