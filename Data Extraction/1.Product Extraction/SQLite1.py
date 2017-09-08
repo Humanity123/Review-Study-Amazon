@@ -25,8 +25,8 @@ def insert_link(id_p,link):
 	try:
 		cur.execute("INSERT INTO %s VALUES (?,?)" % (table),(id_p,link,))
 		return 1
-	except:
-		print ""
+	except Exception as e:
+		print e
 
 	return 0
 

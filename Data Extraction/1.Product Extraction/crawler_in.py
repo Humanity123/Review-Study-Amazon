@@ -1,4 +1,5 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import SQLite1 as my_db
 from random import randint
@@ -6,6 +7,10 @@ from time import sleep
 
 conn = ""
 
+# For redirecting display of firefox to aid running of
+# code on server over SSH
+display = Display(visible=0, size=(800, 600))
+display.start()
 
 # stores all the productIds and their links in the current page with address as $address
 #assumpes that database conn has been set up
@@ -13,6 +18,7 @@ def store_links_in_page(address, driver):
 	# driver = webdriver.Firefox()
 	try:
 		driver.get(address)
+		print "Got Page Succesfully!!!"
 
 		answer = driver.find_element_by_xpath('//ul[@id="s-results-list-atf"]')
 		results = answer.find_elements_by_xpath('./li')
@@ -30,10 +36,11 @@ def store_links_in_page(address, driver):
 		    # video = result
 		    Prod_id = result.get_attribute('data-asin')
 		    link = result.find_element_by_xpath('.//a[@class="a-link-normal a-text-normal"]')
-		    # print("----------",len(link),"-----------")
 		    url = link.get_attribute('href')
+		    print url
 		    
 		    my_db.insert_link(Prod_id, url)
+		    print url
 		    # my_db.save_changes()
 		    
 		    # print("{} : {} ({})".format(Prod_id, url))
@@ -41,8 +48,8 @@ def store_links_in_page(address, driver):
 		# driver.quit()
 		print("success!")
 		return next_link
-	except :
-		print "Error"
+	except Exception as e:
+		print e
 	# driver.quit()
 	return -1
 
@@ -64,6 +71,7 @@ def testing():
 def spider_all(address):
 	crt_page = address
 	driver = webdriver.Firefox()
+	print "Firefox running!"
 	while crt_page:
 		sleep(randint(5,15))
 		ret_val = store_links_in_page(crt_page,driver)
@@ -80,11 +88,11 @@ def spider_all(address):
 
 
 def main():
-	database_path = "/home/kushagra/Documents/BTP/my_work/tests/pythonsqlite.db"
+	database_path = "/home/bt2/14CS10055/BTP_Resources/Data/links.db"
 	initialise_conn(database_path)
-	my_db.set_table_name("IN_LINKS2")
+	my_db.set_table_name("IN_LINKS")
 	my_db.create_table()
-	spider_all("https://www.amazon.in/s/ref=sr_nr_p_n_feature_six_brow_3?fst=as%3Aoff&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031%2Ck%3Aphones%2Cp_n_feature_nine_browse-bin%3A8561127031&keywords=phones&ie=UTF8&qid=1504175999")
+	spider_all("https://www.amazon.in/s/ref=sr_nr_p_n_operating_system_4?fst=as%3Aoff&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031%2Ck%3Aphones%2Cp_n_operating_system_browse-bin%3A1485077031%7C1485084031%7C1485079031%7C1485080031%7C1485082031&keywords=phones&ie=UTF8&qid=1504867990&rnid=1485076031")
 	# my_db.create_table()
 	my_db.get_count()
 	my_db.print_all()

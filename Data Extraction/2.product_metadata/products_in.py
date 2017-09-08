@@ -1,4 +1,5 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import SQLite2 as my_db
 from random import randint
@@ -7,9 +8,14 @@ from datetime import datetime
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-database_path_links = "/home/gulab/pythonsqlite.db"
-database_path_reviews = "/home/gulab/pythonsqlite3.db"
-database_path_prod = "/home/gulab/pythonsqlite2.db"
+#redirecting output display when using ssh server
+display = Display(visible=0, size=(1000, 800))
+display.start()
+
+database_dir = "/home/bt2/14CS10055/BTP_Resources/Data"
+database_path_links = database_dir + "/links.db"
+database_path_reviews = database_dir + "/reviews.db"
+database_path_prod =  database_dir + "/products.db"
 
 img_table_name = "IMG"
 desc_table_name = "DESC"
@@ -23,14 +29,16 @@ def store_metadata_in_page(ProdId, address, driver):
 	prod_db.create_connection(database_path_prod)
 	prod_db.set_table_name(domain)
 	driver.get(address)
-
+	print "Page got successfully!!!"
 	results = driver.find_element_by_xpath('.//span[@id="productTitle"]')
 	title = results.text
 
 	result = driver.find_element_by_xpath('.//div[@id="averageCustomerReviews"]')
-	result = result.find_element_by_xpath('.//span[@id="acrPopover"]')
-	stars = result.get_attribute('title').split(" ")[0]
-
+	try:
+		result = result.find_element_by_xpath('.//span[@id="acrPopover"]')
+		stars = result.get_attribute('title').split(" ")[0]
+	except:
+		stars="0"
 	prod_db.insert_prod(ProdId, title, stars)
 
 	results = driver.find_element_by_xpath('.//div[@id="feature-bullets"]')
@@ -79,6 +87,7 @@ def spider_all(ProdId,address):
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
+			print "Firefox Running!!"
 			driver.get(crt_page)
 			# print("hello")
 			answer = driver.find_element_by_xpath('//a[@id="acrCustomerReviewLink"]')
@@ -111,6 +120,7 @@ def get_all_metadata():
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
+			print "Firefox Running!!"
 			while row:	
 				print row[0]
 				# ret_val=0
@@ -127,6 +137,7 @@ def get_all_metadata():
 			print "Retrying..."
 			retry_cnt-=1
 	links_table.get_count(lin_table_name)
+
 def main():
 	crt_page = "https://www.amazon.in/Samsung-G-550FY-On5-Pro-Gold/dp/B01FM7GGFI/ref=sr_1_1?s=electronics&ie=UTF8&qid=1504191327&sr=1-1&keywords=phone"
 	# driver = webdriver.Firefox()
@@ -150,6 +161,7 @@ def main():
 	prod_table.create_table_img()
 	prod_table.create_table_desc()
 	# prod_table.initialise_cursor()
+	
 	# get_all_metadata()
 
 	# spider_all("kusagra",crt_page)

@@ -1,10 +1,15 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import SQLite1 as my_db
 from random import randint
 from time import sleep
 
 conn = ""
+
+#for redirecting output display when on ssh server
+display = Display(visible=0, size=(800, 600))
+display.start()
 
 
 # stores all the productIds and their links in the current page with address as $address
