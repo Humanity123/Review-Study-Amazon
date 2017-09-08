@@ -1,0 +1,1071 @@
+1504307378916	geckodriver	INFO	geckodriver 0.18.0
+1504307378923	geckodriver	INFO	Listening on 127.0.0.1:34582
+1504307380616	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307382168	Marionette	INFO	Enabled via --marionette
+1504307386174	Marionette	INFO	Listening on port 41157
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307386296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504307386347	Marionette	DEBUG	loaded listener.js
+1504307386368	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504307386939	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504307386941	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504307389013	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307390704	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307390705	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307390716	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307390719	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307391270	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307391917	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307392039	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307392762	geckodriver	INFO	geckodriver 0.18.0
+1504307392767	geckodriver	INFO	Listening on 127.0.0.1:34621
+1504307394210	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307395405	Marionette	INFO	Enabled via --marionette
+1504307399170	Marionette	INFO	Listening on port 37095
+1504307399487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307399570	Marionette	DEBUG	loaded listener.js
+1504307399611	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504307400222	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504307400223	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+1504307401942	geckodriver	INFO	geckodriver 0.18.0
+1504307401949	geckodriver	INFO	Listening on 127.0.0.1:53503
+1504307403222	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307404367	Marionette	INFO	Enabled via --marionette
+[Child 24939] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504307503937	geckodriver	INFO	geckodriver 0.18.0
+1504307503941	geckodriver	INFO	Listening on 127.0.0.1:39237
+1504307505222	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307506396	Marionette	INFO	Enabled via --marionette
+1504307510067	Marionette	INFO	Listening on port 46162
+1504307510411	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307510485	Marionette	DEBUG	loaded listener.js
+1504307510524	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504307511007	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504307511008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504307512596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307514016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307514058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307514332	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307514346	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307514903	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307515017	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307515505	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307519871	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307520194	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307520198	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307520502	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1504307520503	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1504307520503	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1504307520504	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1504307520504	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1504307520504	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1504307520504	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1504307520505	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1504307520506	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1504307522080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307522521	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504307522753	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307523722	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307523724	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307523724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307523739	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307524394	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504307526964	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504307527300	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504307527308	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504307527732	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1504307527732	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1504307527733	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1504307527733	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1504307527734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1504307527734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1504307527734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1504307527735	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1504307529157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504307529567	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307529622	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307529805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307529814	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307529824	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307530470	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307531307	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504307534656	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504307534964	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504307534984	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504307535282	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483739"
+1504307535282	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483737"
+1504307535282	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
+1504307535283	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483733"
+1504307535283	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483771"
+1504307535283	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483742"
+1504307535284	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
+1504307535284	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483748"
+1504307535284	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483745"
+1504307537022	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307537269	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504307537552	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307538274	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307538276	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307538284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307538285	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307538301	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504307542557	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504307542892	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504307542904	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504307543358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483780"
+1504307543358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483778"
+1504307543358	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483776"
+1504307543359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483774"
+1504307543359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483783"
+1504307543360	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483782"
+1504307543360	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483789"
+1504307543361	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483786"
+1504307545038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504307545142	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307545360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307545442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307545448	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307545466	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307545481	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307546322	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504307550390	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504307550757	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504307550760	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504307551019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483821"
+1504307551020	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483819"
+1504307551020	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483817"
+1504307551021	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483813"
+1504307551021	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483816"
+1504307551021	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483815"
+1504307551022	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483828"
+1504307551022	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483825"
+1504307875323	geckodriver	INFO	geckodriver 0.18.0
+1504307875329	geckodriver	INFO	Listening on 127.0.0.1:58196
+1504307876641	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307877663	Marionette	INFO	Enabled via --marionette
+1504307881200	Marionette	INFO	Listening on port 39397
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307881273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504307881336	Marionette	DEBUG	loaded listener.js
+1504307886429	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504307886985	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504307886986	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504307888944	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307890788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307890793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307890933	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307890937	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307891412	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307892244	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307892301	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307892535	Marionette	INFO	New connections will no longer be accepted
+[Child 25538] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25538] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25538] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504307892975	geckodriver	INFO	geckodriver 0.18.0
+1504307892983	geckodriver	INFO	Listening on 127.0.0.1:48970
+1504307894219	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307895194	Marionette	INFO	Enabled via --marionette
+1504307898609	Marionette	INFO	Listening on port 43332
+1504307898811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307898891	Marionette	DEBUG	loaded listener.js
+1504307904014	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504307904511	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504307904512	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504307906558	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504307907438	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307907611	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307907612	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504307907720	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+[Child 25659] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25659] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25659] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504307986275	geckodriver	INFO	geckodriver 0.18.0
+1504307986279	geckodriver	INFO	Listening on 127.0.0.1:60918
+1504307987552	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504307988673	Marionette	INFO	Enabled via --marionette
+1504307992331	Marionette	INFO	Listening on port 42720
+1504307992437	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504307992504	Marionette	DEBUG	loaded listener.js
+1504308006600	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308007585	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308007586	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308009277	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308010919	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308011013	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308011041	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308011047	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308011421	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308012177	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308012259	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308012490	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: jar:file:///usr/lib/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 999: TypeError: win is null
+[Child 25824] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25824] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25824] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504308012900	geckodriver	INFO	geckodriver 0.18.0
+1504308012908	geckodriver	INFO	Listening on 127.0.0.1:57495
+1504308014159	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308015137	Marionette	INFO	Enabled via --marionette
+1504308018703	Marionette	INFO	Listening on port 35890
+1504308018924	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308019000	Marionette	DEBUG	loaded listener.js
+1504308049934	geckodriver	INFO	geckodriver 0.18.0
+1504308049942	geckodriver	INFO	Listening on 127.0.0.1:59327
+1504308051217	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308052375	Marionette	INFO	Enabled via --marionette
+1504308056243	Marionette	INFO	Listening on port 40734
+1504308056265	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308056318	Marionette	DEBUG	loaded listener.js
+1504308064361	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308065444	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308065447	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308067391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308068723	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308068725	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308068726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308068735	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308069009	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+[Child 26061] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 26061] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0001,name=PLayerTransaction::Msg_InitReadLocks) Channel error: cannot send/recv
+
+[Child 26061] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+1504308179625	geckodriver	INFO	geckodriver 0.18.0
+1504308179632	geckodriver	INFO	Listening on 127.0.0.1:33799
+1504308180968	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308182131	Marionette	INFO	Enabled via --marionette
+1504308185628	Marionette	INFO	Listening on port 40432
+1504308185784	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308185862	Marionette	DEBUG	loaded listener.js
+1504308224026	geckodriver	INFO	geckodriver 0.18.0
+1504308224029	geckodriver	INFO	Listening on 127.0.0.1:35999
+1504308225445	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308226758	Marionette	INFO	Enabled via --marionette
+1504308231195	Marionette	INFO	Listening on port 41751
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308231332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308231414	Marionette	DEBUG	loaded listener.js
+1504308239458	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308240017	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308240019	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308242209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308243735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308243737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308243935	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308243946	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308244080	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308244438	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308247468	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308247796	Marionette	INFO	New connections will no longer be accepted
+[Child 26367] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 26367] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504308248184	geckodriver	INFO	geckodriver 0.18.0
+1504308248192	geckodriver	INFO	Listening on 127.0.0.1:42898
+1504308249401	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308250478	Marionette	INFO	Enabled via --marionette
+1504308254210	Marionette	INFO	Listening on port 42167
+1504308254263	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308254324	Marionette	DEBUG	loaded listener.js
+1504308264388	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308265714	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308265719	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+[Child 26486] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504308282454	geckodriver	INFO	geckodriver 0.18.0
+1504308282476	geckodriver	INFO	Listening on 127.0.0.1:42346
+1504308283715	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308285078	Marionette	INFO	Enabled via --marionette
+1504308289586	Marionette	INFO	Listening on port 45932
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308289684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308289773	Marionette	DEBUG	loaded listener.js
+1504308298812	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308299401	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308299402	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308300952	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308302303	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308302329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308302491	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308302496	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308302613	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308303608	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308303643	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308303930	Marionette	INFO	New connections will no longer be accepted
+[Child 26655] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 26655] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 26655] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504308304362	geckodriver	INFO	geckodriver 0.18.0
+1504308304368	geckodriver	INFO	Listening on 127.0.0.1:46534
+1504308305577	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308306649	Marionette	INFO	Enabled via --marionette
+1504308310845	Marionette	INFO	Listening on port 43229
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308310946	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308311069	Marionette	DEBUG	loaded listener.js
+1504308319120	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308319698	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308319699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308321339	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308323062	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308323063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308323134	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308323144	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308323738	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308324394	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308324477	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308487225	geckodriver	INFO	geckodriver 0.18.0
+1504308487228	geckodriver	INFO	Listening on 127.0.0.1:43535
+1504308488409	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308489344	Marionette	INFO	Enabled via --marionette
+1504308492619	Marionette	INFO	Listening on port 37400
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308492671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308492736	Marionette	DEBUG	loaded listener.js
+1504308506844	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308507493	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308507494	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308508789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308508797	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308508965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308510230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308510266	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308510267	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308510367	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308510438	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308510614	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308511384	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=OnePlus%20One%20(Sandstone%20Black%2C%2064GB)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=7831504308510928&num=0&output=uds_ads_only&v=3&bsl=10&u_his=1&u_tz=330&dt=1504308510930&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308511397	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308511934	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=OnePlus%20One%20(Sandstone%20Black%2C%2064GB)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=7831504308510928&num=0&output=uds_ads_only&v=3&bsl=10&u_his=1&u_tz=330&dt=1504308510930&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308511945	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=OnePlus%20One%20(Sandstone%20Black%2C%2064GB)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=7831504308510928&num=0&output=uds_ads_only&v=3&bsl=10&u_his=1&u_tz=330&dt=1504308510930&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308511947	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308511973	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308529209	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308529602	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308529616	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308529779	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1504308529779	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1504308529779	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1504308529779	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1504308529780	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1504308529781	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1504308529781	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1504308530772	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308530776	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308531230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308531246	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308531464	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308531751	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308531844	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308531844	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308531929	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308531932	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308532128	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(Space%20Grey%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=4091504308531399&num=0&output=uds_ads_only&v=3&bsl=10&u_his=2&u_tz=330&dt=1504308531402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308532140	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(Space%20Grey%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=4091504308531399&num=0&output=uds_ads_only&v=3&bsl=10&u_his=2&u_tz=330&dt=1504308531402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308532145	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(Space%20Grey%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=4091504308531399&num=0&output=uds_ads_only&v=3&bsl=10&u_his=2&u_tz=330&dt=1504308531402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308532146	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308532210	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(Space%20Grey%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=4091504308531399&num=0&output=uds_ads_only&v=3&bsl=10&u_his=2&u_tz=330&dt=1504308531402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308532212	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(Space%20Grey%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=4091504308531399&num=0&output=uds_ads_only&v=3&bsl=10&u_his=2&u_tz=330&dt=1504308531402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308532538	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483724"
+1504308533243	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308541390	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308541934	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308541937	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Lenovo-Zuk-Space-Grey-Cyanogen/dp/B01DDP7US8/ref=sr_1_2/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-2&keywords=phones"
+1504308542171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1504308542171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1504308542172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1504308542172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483704"
+1504308542172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483722"
+1504308542173	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1504308542173	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1504308542173	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483711"
+1504308542174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1504308542174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483729"
+1504308542174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1504308542771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308542776	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308543119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308543166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308543314	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308543525	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308543925	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308543927	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308543927	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308543936	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308544253	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Hyve%20Pryme%204G%20Android%20Smartphone%20Mobile%20(Champagne%20Gold%2C%2010%20core)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=511504308543548&num=0&output=uds_ads_only&v=3&bsl=10&u_his=3&u_tz=330&dt=1504308543550&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308544267	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Hyve%20Pryme%204G%20Android%20Smartphone%20Mobile%20(Champagne%20Gold%2C%2010%20core)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=511504308543548&num=0&output=uds_ads_only&v=3&bsl=10&u_his=3&u_tz=330&dt=1504308543550&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308544271	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Hyve%20Pryme%204G%20Android%20Smartphone%20Mobile%20(Champagne%20Gold%2C%2010%20core)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=511504308543548&num=0&output=uds_ads_only&v=3&bsl=10&u_his=3&u_tz=330&dt=1504308543550&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308544272	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308544297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Hyve%20Pryme%204G%20Android%20Smartphone%20Mobile%20(Champagne%20Gold%2C%2010%20core)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=511504308543548&num=0&output=uds_ads_only&v=3&bsl=10&u_his=3&u_tz=330&dt=1504308543550&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308544298	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Hyve%20Pryme%204G%20Android%20Smartphone%20Mobile%20(Champagne%20Gold%2C%2010%20core)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=511504308543548&num=0&output=uds_ads_only&v=3&bsl=10&u_his=3&u_tz=330&dt=1504308543550&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308544400	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483773"
+1504308544915	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308552824	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308553145	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308553149	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Hyve-Android-Smartphone-Mobile-Champagne/dp/B01MXBVIFW/ref=sr_1_3/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-3&keywords=phones"
+1504308553287	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483761"
+1504308553287	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483759"
+1504308553289	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483757"
+1504308553289	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483753"
+1504308553290	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483801"
+1504308553291	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483771"
+1504308553292	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483768"
+1504308553293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483755"
+1504308553293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483764"
+1504308553293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483765"
+1504308553293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483778"
+1504308553293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483775"
+1504308554639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308554678	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308555049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308555080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308555412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308555736	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308555763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308555765	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308555765	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308555865	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308556153	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=LG%20G6%20LGH870DS%20(Ice%20Platinum)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=5541504308555388&num=0&output=uds_ads_only&v=3&bsl=10&u_his=4&u_tz=330&dt=1504308555402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308556155	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=LG%20G6%20LGH870DS%20(Ice%20Platinum)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=5541504308555388&num=0&output=uds_ads_only&v=3&bsl=10&u_his=4&u_tz=330&dt=1504308555402&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308556157	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308556482	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308567605	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308567915	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308567922	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/LG-G6-LGH870DS-Ice-Platinum/dp/B071CJS1FD/ref=sr_1_4/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-4&keywords=phones"
+1504308568121	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483812"
+1504308568122	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483810"
+1504308568125	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483808"
+1504308568126	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483804"
+1504308568126	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483817"
+1504308568126	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483806"
+1504308568127	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483815"
+1504308568127	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483816"
+1504308568128	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483822"
+1504308569078	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308569098	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308569608	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308569895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308569895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308570047	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308570133	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308570156	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308570158	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308570165	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308570735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Mocha%20Gold)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=6601504308569884&num=0&output=uds_ads_only&v=3&bsl=10&u_his=5&u_tz=330&dt=1504308569886&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308570747	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Mocha%20Gold)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=6601504308569884&num=0&output=uds_ads_only&v=3&bsl=10&u_his=5&u_tz=330&dt=1504308569886&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308570752	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Mocha%20Gold)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=6601504308569884&num=0&output=uds_ads_only&v=3&bsl=10&u_his=5&u_tz=330&dt=1504308569886&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308570754	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308570830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Mocha%20Gold)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=6601504308569884&num=0&output=uds_ads_only&v=3&bsl=10&u_his=5&u_tz=330&dt=1504308569886&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308570832	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Mocha%20Gold)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=6601504308569884&num=0&output=uds_ads_only&v=3&bsl=10&u_his=5&u_tz=330&dt=1504308569886&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308570936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483867"
+1504308571048	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308588166	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308588490	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308588500	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Gionee-Plus-W1617-Mocha-Gold/dp/B0748H4FV9/ref=sr_1_5/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-5&keywords=phones"
+1504308588744	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483856"
+1504308588745	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483854"
+1504308588745	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483852"
+1504308588746	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483847"
+1504308588746	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483865"
+1504308588746	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483860"
+1504308588747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483849"
+1504308588747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483859"
+1504308588748	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483858"
+1504308588748	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483869"
+1504308590078	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308590080	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308590137	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308590219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308590253	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308590511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308590909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308590912	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308590913	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308590979	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308591168	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Black)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=9461504308590425&num=0&output=uds_ads_only&v=3&bsl=10&u_his=6&u_tz=330&dt=1504308590428&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308591178	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Black)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=9461504308590425&num=0&output=uds_ads_only&v=3&bsl=10&u_his=6&u_tz=330&dt=1504308590428&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308591183	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Black)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=9461504308590425&num=0&output=uds_ads_only&v=3&bsl=10&u_his=6&u_tz=330&dt=1504308590428&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308591185	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308591229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Black)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=9461504308590425&num=0&output=uds_ads_only&v=3&bsl=10&u_his=6&u_tz=330&dt=1504308590428&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308591230	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Gionee%20A1%20Plus%20W1617%20(Black)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=9461504308590425&num=0&output=uds_ads_only&v=3&bsl=10&u_his=6&u_tz=330&dt=1504308590428&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308591329	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483914"
+1504308591487	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308608602	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308608960	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308608973	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.in/Gionee-A1-Plus-W1617-Black/dp/B0748G5W66/ref=sr_1_6/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-6&keywords=phones"
+1504308609190	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483903"
+1504308609191	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483901"
+1504308609191	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483899"
+1504308609192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483894"
+1504308609192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483912"
+1504308609192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483907"
+1504308609192	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483896"
+1504308609193	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483906"
+1504308609194	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483905"
+1504308609196	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483916"
+1504308610044	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Lenovo-Zuk-Z1-White-Cyanogen/dp/B01DDP7VC8/ref=sr_1_7/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-7&keywords=phones"
+1504308610046	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Lenovo-Zuk-Z1-White-Cyanogen/dp/B01DDP7VC8/ref=sr_1_7/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-7&keywords=phones"
+1504308610273	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308610382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/Lenovo-Zuk-Z1-White-Cyanogen/dp/B01DDP7VC8/ref=sr_1_7/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-7&keywords=phones"
+1504308610398	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308610744	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308611182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308611183	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308611204	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308611415	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(White%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=341504308610603&num=0&output=uds_ads_only&v=3&bsl=10&u_his=7&u_tz=330&dt=1504308610605&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308611425	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(White%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=341504308610603&num=0&output=uds_ads_only&v=3&bsl=10&u_his=7&u_tz=330&dt=1504308610605&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308611433	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(White%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=341504308610603&num=0&output=uds_ads_only&v=3&bsl=10&u_his=7&u_tz=330&dt=1504308610605&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308611434	Marionette	DEBUG	Received DOM event "pageshow" for "https://d14qd3he45186l.cloudfront.net/ads-search32.html"
+1504308611464	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(White%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=341504308610603&num=0&output=uds_ads_only&v=3&bsl=10&u_his=7&u_tz=330&dt=1504308610605&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308611610	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483961"
+1504308611612	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.adsensecustomsearchads.com/afs/ads?q=Lenovo%20Zuk%20Z1%20(White%2C%20Cyanogen%20OS)&adpage=1&gl=in&ccfn=amazon_numbered_three_column_for_non_Search&r=m&fexp=21404%2C17300002&client=amazon-in&channel=g-channel-151%2Bg-channel-83&hl=en&adtest=off&type=0&oe=UTF-8&ie=UTF-8&format=n3&ad=n3&nocache=341504308610603&num=0&output=uds_ads_only&v=3&bsl=10&u_his=7&u_tz=330&dt=1504308610605&u_w=1920&u_h=1080&biw=-12245933&bih=-12245933&isw=1234&ish=1&psw=1234&psh=0&frm=2&uio=uv3-&jsv=10473&rurl=https%3A%2F%2Fd14qd3he45186l.cloudfront.net%2Fads-search32.html&referer=www.amazon.com#master-1"
+1504308611618	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308611688	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/Lenovo-Zuk-Z1-White-Cyanogen/dp/B01DDP7VC8/ref=sr_1_7/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-7&keywords=phones"
+1504308791023	geckodriver	INFO	geckodriver 0.18.0
+1504308791026	geckodriver	INFO	Listening on 127.0.0.1:52942
+1504308792170	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308793296	Marionette	INFO	Enabled via --marionette
+1504308796034	Marionette	INFO	Listening on port 36192
+1504308796133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308796190	Marionette	DEBUG	loaded listener.js
+1504308803241	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308803854	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308803855	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308804894	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308806283	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308806335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308806342	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308806581	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308806616	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308807433	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308807594	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308836385	geckodriver	INFO	geckodriver 0.18.0
+1504308836400	geckodriver	INFO	Listening on 127.0.0.1:37115
+1504308837534	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308838353	Marionette	INFO	Enabled via --marionette
+1504308841769	Marionette	INFO	Listening on port 40784
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308841879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308841920	Marionette	DEBUG	loaded listener.js
+1504308853954	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308854498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308854499	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308855891	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/OnePlus-One-Sandstone-Black-64GB/dp/B00OK2ZW5W/ref=sr_1_1/262-6239941-1949022?s=electronics&ie=UTF8&qid=1504222355&sr=1-1&keywords=phones"
+1504308856771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308856780	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308856883	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308856885	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308857337	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+[Child 27412] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 27412] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 27412] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1504308937864	geckodriver	INFO	geckodriver 0.18.0
+1504308937867	geckodriver	INFO	Listening on 127.0.0.1:56223
+1504308939014	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504308939904	Marionette	INFO	Enabled via --marionette
+1504308942565	Marionette	INFO	Listening on port 38910
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504308942674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504308942737	Marionette	DEBUG	loaded listener.js
+1504308949791	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504308951073	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504308951074	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504308953111	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Cell-Phone-Case-iPhone-Plus/dp/B01KZ2WGZE/ref=sr_1_1/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-1-spons&keywords=phones&psc=1"
+1504308954677	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308954683	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308954708	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308954712	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308954772	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308955067	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308955471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308955835	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308955931	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308956484	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308956500	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Cell-Phone-Case-iPhone-Plus/dp/B01KZ2WGZE/ref=sr_1_1/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-1-spons&keywords=phones&psc=1"
+1504308969410	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/Cell-Phone-Case-iPhone-Plus/dp/B01KZ2WGZE/ref=sr_1_1/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-1-spons&keywords=phones&psc=1"
+1504308970066	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/Cell-Phone-Case-iPhone-Plus/dp/B01KZ2WGZE/ref=sr_1_1/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-1-spons&keywords=phones&psc=1"
+1504308970089	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/Cell-Phone-Case-iPhone-Plus/dp/B01KZ2WGZE/ref=sr_1_1/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-1-spons&keywords=phones&psc=1"
+1504308970328	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1504308970328	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1504308970329	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1504308970339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1504308970340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1504308970340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1504308970340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1504308970341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1504308970341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1504308970342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1504308971922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/RCA-16GB-Unlocked-Phone-Android/dp/B01N071CQE/ref=sr_1_2/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-2-spons&keywords=phones&psc=1"
+1504308972666	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308972710	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308972739	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308972742	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308972743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308973148	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308973715	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308973806	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308974353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308974619	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308974634	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/RCA-16GB-Unlocked-Phone-Android/dp/B01N071CQE/ref=sr_1_2/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-2-spons&keywords=phones&psc=1"
+1504308988314	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/RCA-16GB-Unlocked-Phone-Android/dp/B01N071CQE/ref=sr_1_2/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-2-spons&keywords=phones&psc=1"
+1504308988653	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/RCA-16GB-Unlocked-Phone-Android/dp/B01N071CQE/ref=sr_1_2/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-2-spons&keywords=phones&psc=1"
+1504308988666	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/RCA-16GB-Unlocked-Phone-Android/dp/B01N071CQE/ref=sr_1_2/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-2-spons&keywords=phones&psc=1"
+1504308988965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483704"
+1504308988965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1504308988966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1504308988966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1504308988966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1504308988966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483708"
+1504308988967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1504308988967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1504308988967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1504308988968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1504308990392	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504308990430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308990841	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991033	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991071	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991091	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991093	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991094	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991103	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504308991593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504308991594	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504308991603	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308991639	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308992136	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504308992173	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504309009337	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504309009680	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504309009684	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/DOOGEE-Unlocked-Cell-Phones-International/dp/B0736RZ1K5/ref=sr_1_3/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-3&keywords=phones"
+1504309009912	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483747"
+1504309009930	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483745"
+1504309009931	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483743"
+1504309009931	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483739"
+1504309009931	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483783"
+1504309009932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483740"
+1504309009932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483755"
+1504309009932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483750"
+1504309009933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483749"
+1504309009933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483751"
+1504309009934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483760"
+1504309009934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483757"
+1504309010753	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309011413	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309011787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309012117	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309012486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309012487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309012494	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309012577	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309012580	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309013110	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309013121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309013124	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309013269	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309013271	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309013549	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309029442	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309029768	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309029781	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_4/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-4&keywords=phones"
+1504309030429	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483794"
+1504309030430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483792"
+1504309030431	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483790"
+1504309030432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483786"
+1504309030432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483787"
+1504309030432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483802"
+1504309030433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483797"
+1504309030433	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483796"
+1504309030434	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483798"
+1504309030434	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483807"
+1504309030435	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483804"
+1504309032085	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309032227	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032559	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032560	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032560	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032574	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032643	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032667	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309032675	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309033092	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309033094	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309033110	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309033370	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309034422	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309034442	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309043621	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309043975	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309043987	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0VLQ/ref=sr_1_5/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-5&keywords=phones"
+1504309044268	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483839"
+1504309044268	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483837"
+1504309044269	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483835"
+1504309044269	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483831"
+1504309044269	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483832"
+1504309044269	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483847"
+1504309044270	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483841"
+1504309044270	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483843"
+1504309044270	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483842"
+1504309044270	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483852"
+1504309044270	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483849"
+1504309045536	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309045977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Xgody-Y14-Unlocked-Smartphone-Lollipop/dp/B01N5KIKT1/ref=sr_1_6/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-6&keywords=phones"
+1504309046015	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046632	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046633	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046633	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309046759	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309047440	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309048151	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309048209	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Xgody-Y14-Unlocked-Smartphone-Lollipop/dp/B01N5KIKT1/ref=sr_1_6/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-6&keywords=phones"
+1504309059343	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/Xgody-Y14-Unlocked-Smartphone-Lollipop/dp/B01N5KIKT1/ref=sr_1_6/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-6&keywords=phones"
+1504309059670	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/Xgody-Y14-Unlocked-Smartphone-Lollipop/dp/B01N5KIKT1/ref=sr_1_6/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-6&keywords=phones"
+1504309059673	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/Xgody-Y14-Unlocked-Smartphone-Lollipop/dp/B01N5KIKT1/ref=sr_1_6/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-6&keywords=phones"
+1504309059966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483884"
+1504309059966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483882"
+1504309059967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483880"
+1504309059967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483876"
+1504309059968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483877"
+1504309059968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483887"
+1504309059968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483886"
+1504309059968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483888"
+1504309059969	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483895"
+1504309059969	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483892"
+1504309061461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309061741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309061870	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309062191	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062191	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062275	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062277	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062322	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062344	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309062346	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309062608	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309062875	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309063348	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309076834	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309077224	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309077238	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/BLU-R1-HD-Exclusive-Lockscreen/dp/B01H2E0J5M/ref=sr_1_7/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-7&keywords=phones"
+1504309077551	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483925"
+1504309077552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483923"
+1504309077552	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483921"
+1504309077553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483919"
+1504309077553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483963"
+1504309077553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483933"
+1504309077553	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483929"
+1504309077554	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483940"
+1504309077554	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483927"
+1504309077555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483928"
+1504309077555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483938"
+1504309077555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483935"
+1504309078303	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309078309	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309079097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Figo-Virtue-PRO-4-0-Smartphone/dp/B01N6G5N14/ref=sr_1_8/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-8&keywords=phones"
+1504309079723	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309079729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309079731	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309079732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309079834	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309080143	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309080404	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309081077	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309081092	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Figo-Virtue-PRO-4-0-Smartphone/dp/B01N6G5N14/ref=sr_1_8/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-8&keywords=phones"
+1504309090294	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/Figo-Virtue-PRO-4-0-Smartphone/dp/B01N6G5N14/ref=sr_1_8/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-8&keywords=phones"
+1504309090693	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/Figo-Virtue-PRO-4-0-Smartphone/dp/B01N6G5N14/ref=sr_1_8/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-8&keywords=phones"
+1504309090714	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/Figo-Virtue-PRO-4-0-Smartphone/dp/B01N6G5N14/ref=sr_1_8/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-8&keywords=phones"
+1504309091210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483974"
+1504309091210	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483972"
+1504309091211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483970"
+1504309091211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483966"
+1504309091211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484008"
+1504309091211	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483968"
+1504309091212	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483976"
+1504309091213	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483977"
+1504309091213	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483978"
+1504309091214	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483985"
+1504309091214	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483982"
+1504309092644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309092848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093237	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309093475	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093475	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093505	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093507	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093550	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309093552	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309093609	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093889	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309093892	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309094084	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309101381	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309101845	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309101855	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.com/Samsung-Galaxy-G930P-32GB-Black/dp/B01CP4CGTQ/ref=sr_1_9/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-9&keywords=phones"
+1504309102456	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484017"
+1504309102456	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484015"
+1504309102457	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484013"
+1504309102457	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484011"
+1504309102457	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484025"
+1504309102458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484020"
+1504309102458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484019"
+1504309102458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484021"
+1504309102459	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484030"
+1504309102459	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484027"
+1504309104000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Moto-G-Play-Verizon-Prepaid/dp/B01M61A8JK/ref=sr_1_10/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-10&keywords=phones"
+1504309104448	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104462	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Moto-G-Play-Verizon-Prepaid/dp/B01M61A8JK/ref=sr_1_10/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-10&keywords=phones"
+1504309104945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104960	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104962	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104964	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309104985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.com/Moto-G-Play-Verizon-Prepaid/dp/B01M61A8JK/ref=sr_1_10/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-10&keywords=phones"
+1504309104986	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Moto-G-Play-Verizon-Prepaid/dp/B01M61A8JK/ref=sr_1_10/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-10&keywords=phones"
+1504309105102	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309105229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309105231	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309105442	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309106006	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.com/Moto-G-Play-Verizon-Prepaid/dp/B01M61A8JK/ref=sr_1_10/144-2084896-2591429?s=wireless&ie=UTF8&qid=1504228180&sr=1-10&keywords=phones"
+1504309176538	geckodriver	INFO	geckodriver 0.18.0
+1504309176550	geckodriver	INFO	Listening on 127.0.0.1:39536
+1504309177692	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504309178516	Marionette	INFO	Enabled via --marionette
+1504309181495	Marionette	INFO	Listening on port 40026
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504309181517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504309181563	Marionette	DEBUG	loaded listener.js
+1504309189612	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504309191709	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504309191710	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504309193866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Unlocked-Smartphone-Android-Mobile-Phone/dp/B01MXSDTYH/ref=sr_1_1/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-1&keywords=phone"
+1504309195482	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309195500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309195504	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309195786	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309196029	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309196435	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309196675	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309197004	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309197027	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Unlocked-Smartphone-Android-Mobile-Phone/dp/B01MXSDTYH/ref=sr_1_1/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-1&keywords=phone"
+1504309212151	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Unlocked-Smartphone-Android-Mobile-Phone/dp/B01MXSDTYH/ref=sr_1_1/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-1&keywords=phone"
+1504309212614	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Unlocked-Smartphone-Android-Mobile-Phone/dp/B01MXSDTYH/ref=sr_1_1/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-1&keywords=phone"
+1504309212618	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Unlocked-Smartphone-Android-Mobile-Phone/dp/B01MXSDTYH/ref=sr_1_1/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-1&keywords=phone"
+1504309212811	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1504309212811	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1504309212812	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1504309212812	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1504309212812	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1504309212813	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1504309212813	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1504309212813	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1504309212814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483673"
+1504309212814	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1504309214257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Vodafone-Smart-Smartphone-Locked-Network/dp/B01H6MMT9E/ref=sr_1_2/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-2&keywords=phone"
+1504309214904	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309214970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309215088	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309215770	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309216136	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309216457	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309216703	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309217130	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309217309	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Vodafone-Smart-Smartphone-Locked-Network/dp/B01H6MMT9E/ref=sr_1_2/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-2&keywords=phone"
+1504309235519	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Vodafone-Smart-Smartphone-Locked-Network/dp/B01H6MMT9E/ref=sr_1_2/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-2&keywords=phone"
+1504309236064	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Vodafone-Smart-Smartphone-Locked-Network/dp/B01H6MMT9E/ref=sr_1_2/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-2&keywords=phone"
+1504309236079	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Vodafone-Smart-Smartphone-Locked-Network/dp/B01H6MMT9E/ref=sr_1_2/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-2&keywords=phone"
+1504309236301	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483705"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1504309236302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1504309236303	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483711"
+1504309236303	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1504309236303	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483714"
+1504309237430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Smartphones-DOOGEE-X10-Unlocked-Mobile/dp/B07117PCLY/ref=sr_1_3/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-3&keywords=phone"
+1504309237443	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238051	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238720	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238921	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309238933	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309240385	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309240468	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Smartphones-DOOGEE-X10-Unlocked-Mobile/dp/B07117PCLY/ref=sr_1_3/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-3&keywords=phone"
+1504309249921	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Smartphones-DOOGEE-X10-Unlocked-Mobile/dp/B07117PCLY/ref=sr_1_3/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-3&keywords=phone"
+1504309250225	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Smartphones-DOOGEE-X10-Unlocked-Mobile/dp/B07117PCLY/ref=sr_1_3/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-3&keywords=phone"
+1504309250228	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Smartphones-DOOGEE-X10-Unlocked-Mobile/dp/B07117PCLY/ref=sr_1_3/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-3&keywords=phone"
+1504309250467	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483749"
+1504309250467	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483747"
+1504309250467	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483745"
+1504309250468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483741"
+1504309250468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483743"
+1504309250469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483753"
+1504309250469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483751"
+1504309250469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483755"
+1504309250470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483761"
+1504309250470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483758"
+1504309251273	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309251654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Mobile-Unlocked-DOOGEE-X10-Smartphones/dp/B071KXBKJL/ref=sr_1_4/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-4&keywords=phone"
+1504309252064	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309252477	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309252498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309252953	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309252983	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309253600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309253616	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309253636	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Mobile-Unlocked-DOOGEE-X10-Smartphones/dp/B071KXBKJL/ref=sr_1_4/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-4&keywords=phone"
+1504309271075	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Mobile-Unlocked-DOOGEE-X10-Smartphones/dp/B071KXBKJL/ref=sr_1_4/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-4&keywords=phone"
+1504309271397	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Mobile-Unlocked-DOOGEE-X10-Smartphones/dp/B071KXBKJL/ref=sr_1_4/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-4&keywords=phone"
+1504309271417	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Mobile-Unlocked-DOOGEE-X10-Smartphones/dp/B071KXBKJL/ref=sr_1_4/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-4&keywords=phone"
+1504309271868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483793"
+1504309271868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483791"
+1504309271869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483789"
+1504309271869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483785"
+1504309271869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483786"
+1504309271869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483798"
+1504309271869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483795"
+1504309271870	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483800"
+1504309271871	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483806"
+1504309271871	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483803"
+1504309272349	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309272865	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Nokia-216-SIM-Free-Phone-Black/dp/B01MRB4YYH/ref=sr_1_5/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-5&keywords=phone"
+1504309272956	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309273244	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309273653	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309273653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309273671	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309274230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309274548	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309275518	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Nokia-216-SIM-Free-Phone-Black/dp/B01MRB4YYH/ref=sr_1_5/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-5&keywords=phone"
+1504309288682	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Nokia-216-SIM-Free-Phone-Black/dp/B01MRB4YYH/ref=sr_1_5/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-5&keywords=phone"
+1504309289119	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Nokia-216-SIM-Free-Phone-Black/dp/B01MRB4YYH/ref=sr_1_5/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-5&keywords=phone"
+1504309289126	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Nokia-216-SIM-Free-Phone-Black/dp/B01MRB4YYH/ref=sr_1_5/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-5&keywords=phone"
+1504309289315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483838"
+1504309289316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483836"
+1504309289316	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483834"
+1504309289317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483830"
+1504309289317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483831"
+1504309289317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483842"
+1504309289317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483840"
+1504309289318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483844"
+1504309289318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483850"
+1504309289319	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483847"
+1504309290631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/UMIDIGI-London-Unlocked-Smartphone-Sim-Free-Gold/dp/B01MD13F02/ref=sr_1_6/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-6&keywords=phone"
+1504309290708	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309290968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309291169	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309291418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309291477	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309291851	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309291975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309293019	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309293032	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/UMIDIGI-London-Unlocked-Smartphone-Sim-Free-Gold/dp/B01MD13F02/ref=sr_1_6/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-6&keywords=phone"
+1504309306169	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/UMIDIGI-London-Unlocked-Smartphone-Sim-Free-Gold/dp/B01MD13F02/ref=sr_1_6/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-6&keywords=phone"
+1504309306793	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/UMIDIGI-London-Unlocked-Smartphone-Sim-Free-Gold/dp/B01MD13F02/ref=sr_1_6/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-6&keywords=phone"
+1504309306809	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/UMIDIGI-London-Unlocked-Smartphone-Sim-Free-Gold/dp/B01MD13F02/ref=sr_1_6/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-6&keywords=phone"
+1504309307069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483882"
+1504309307069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483880"
+1504309307070	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483878"
+1504309307070	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483874"
+1504309307080	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483875"
+1504309307080	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483886"
+1504309307080	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483884"
+1504309307081	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483888"
+1504309307081	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483894"
+1504309307082	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483891"
+1504309307422	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309308079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
+1504309309010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309309196	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309309315	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309309423	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309309624	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309309715	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309311211	Marionette	DEBUG	Received DOM event "pageshow" for "https://images-eu.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.11._V519224511_.html"
+1504309311237	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
+1504309322046	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
+1504309322702	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
+1504309322716	Marionette	DEBUG	Received DOM event "unload" for "https://www.amazon.co.uk/Alcatel-OneTouch-10-16G-SIM-Free-Mobile-Black/dp/B01BSVVKB2/ref=sr_1_7/259-8523689-6280355?s=telephone&ie=UTF8&qid=1504229736&sr=1-7&keywords=phone"
+[Child 27827] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
