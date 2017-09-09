@@ -1,16 +1,24 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import reviews_db as my_db
 from random import randint
 from time import sleep
 from datetime import datetime
 
-database_path_links = "/home/gulab/pythonsqlite.db"
-database_path_reviews = "/home/gulab/pythonsqlite3.db"
+#redirecting output display when using ssh server
+display = Display(visible=0, size=(1000, 800))
+display.start()
+
+database_dir = "/home/bt2/14CS10055/BTP_Resources/Data"
+database_path_links = database_dir + "/links.db"
+database_path_reviews = database_dir + "/reviews.db"
+database_path_prod =  database_dir + "/products.db"
 
 rev_table_name = "UK_REV"
 lin_table_name = "UK_LINKS"
 
+#stores reviews in the current page and returns the link to NEXT page
 def store_reviews_in_page(ProdId, address, driver):
 	# driver = webdriver.Firefox()
 	try:
