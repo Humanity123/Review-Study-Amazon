@@ -11,11 +11,7 @@ class database_sqlite:
 	def __del__(self):
 		self.conn.close()
 	def create_connection(self,db_file):
-	    try:
-	        self.conn = sqlite3.connect(db_file)
-	    except Exception as e:
-	        print "Error in Database Creation!", e
-	 
+		self.conn = sqlite3.connect(db_file)
 	    return None
 
 	def insert_link(self,id_p,link):
