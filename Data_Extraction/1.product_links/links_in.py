@@ -4,8 +4,13 @@ from selenium import webdriver
 import links_db as my_db
 from random import randint
 from time import sleep
+import sys
 
 conn = ""
+
+cmd_arg = sys.argv
+database_dir = cmd_arg[1]
+database_path_links = database_dir + "/links.db"
 
 # For redirecting display of firefox to aid running of
 # code on server over SSH
@@ -86,8 +91,8 @@ def spider_all(address):
 
 
 def main():
-	database_path = "/home/bt2/14CS10055/BTP_Resources/Data/links.db"
-	initialise_conn(database_path)
+	# database_path = "/home/bt2/14CS10055/BTP_Resources/Data/links.db"
+	initialise_conn(database_path_links)
 	my_db.set_table_name("IN_LINKS")
 	my_db.create_table()
 	spider_all("https://www.amazon.in/s/ref=sr_nr_p_n_operating_system_4?fst=as%3Aoff&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031%2Ck%3Aphones%2Cp_n_operating_system_browse-bin%3A1485077031%7C1485084031%7C1485079031%7C1485080031%7C1485082031&keywords=phones&ie=UTF8&qid=1504867990&rnid=1485076031")

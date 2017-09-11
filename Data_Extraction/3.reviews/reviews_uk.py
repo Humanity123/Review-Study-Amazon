@@ -10,7 +10,8 @@ from datetime import datetime
 display = Display(visible=0, size=(1000, 800))
 display.start()
 
-database_dir = "/home/bt2/14CS10055/BTP_Resources/Data"
+cmd_arg = sys.argv
+database_dir = cmd_arg[1]
 database_path_links = database_dir + "/links.db"
 database_path_reviews = database_dir + "/reviews.db"
 database_path_prod =  database_dir + "/products.db"

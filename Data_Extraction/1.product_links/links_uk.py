@@ -3,9 +3,13 @@ from selenium import webdriver
 import links_db as my_db
 from random import randint
 from time import sleep
+import sys
 
 conn = ""
 
+cmd_arg = sys.argv
+database_dir = cmd_arg[1]
+database_path_links = database_dir + "/links.db"
 
 # stores all the productIds and their links in the current page with address as $address
 #assumpes that database conn has been set up
@@ -77,8 +81,8 @@ def spider_all(address):
 
 
 def main():
-	database_path = "/home/kushagra/Documents/BTP/my_work/data/pythonsqlite.db"
-	initialise_conn(database_path)
+	# database_path = "/home/kushagra/Documents/BTP/my_work/data/pythonsqlite.db"
+	initialise_conn(database_path_links)
 	my_db.set_table_name("IN_LINKS")
 	my_db.create_table()
 	spider_all("https://www.amazon.co.uk/s/ref=sr_nr_n_8?fst=as%3Aoff&rh=n%3A560798%2Cn%3A5362060031%2Ck%3Aphone&keywords=phone&ie=UTF8&qid=1503568898&rnid=560800")
