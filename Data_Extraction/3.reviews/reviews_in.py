@@ -5,6 +5,7 @@ import reviews_db as my_db
 from random import randint
 from time import sleep
 from datetime import datetime
+import sys
 
 #redirecting output display when using ssh server
 display = Display(visible=0, size=(1000, 800))
@@ -71,6 +72,7 @@ def store_reviews_in_page(ProdId, address, driver):
 		rev_table.save_changes()
 		print "REVIEWS On PAGE SAVED"
 		rev_table.get_count()
+		sys.stdout.flush()
 		return next_link
 	except Exception as e:
 		print e
@@ -133,7 +135,19 @@ def get_all_reviews():
 	links_table.initialise_cursor()
 	row = links_table.get_next_element()
 	while row:	
+		rev_table = my_db.database_sqlite()
+		rev_table.create_connection(database_path_reviews)
+		rev_table.set_table_name(rev_table_name)
+		val = rev_table.is_review_present(row[0])
+		va = val.fetchone()
+		cnt = va[0]
+		if cnt!=0:
+			print "Already Crawled Some Data for", row[0]
+			sys.stdout.flush()
+			row = links_table.get_next_element()
+			continue
 		print "Crawling for", row[0], " started!"
+		sys.stdout.flush()
 		ret_val = spider_all(row[0],row[1])
 		if ret_val==-1:
 			print "Unsuccesfull crawl Attempt! Going to next product"

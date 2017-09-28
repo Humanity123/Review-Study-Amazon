@@ -6,6 +6,7 @@ from random import randint
 from time import sleep
 from datetime import datetime
 from selenium.webdriver.common.action_chains import ActionChains
+import sys
 
 #redirecting output display when using ssh server
 display = Display(visible=0, size=(1000, 800))
@@ -124,13 +125,13 @@ def main():
 
 	get_all_metadata()
 
-	prod_table.get_count(prod_table_name)
-	prod_table.print_all(prod_table_name)
-	prod_table.print_all(desc_table_name)
-	prod_table.print_all(img_table_name)
-	prod_table.get_count(prod_table_name)
-	prod_table.get_count(desc_table_name)
-	prod_table.get_count(img_table_name)
+	# prod_table.get_count(prod_table_name)
+	# prod_table.print_all(prod_table_name)
+	# prod_table.print_all(desc_table_name)
+	# prod_table.print_all(img_table_name)
+	# prod_table.get_count(prod_table_name)
+	# prod_table.get_count(desc_table_name)
+	# prod_table.get_count(img_table_name)
 
 if __name__ == '__main__':
 	main()

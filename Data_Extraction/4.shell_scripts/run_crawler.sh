@@ -1,3 +1,4 @@
+#!/bin/bash
 set -x
 
 CURRENT_DIREC=$(pwd)
@@ -11,13 +12,13 @@ LINK_INDIA_SCRIPT=$LINK_SCRIPT_DIREC/"links_in.py"
 LINK_USA_SCRIPT=$LINK_SCRIPT_DIREC/"links_com.py"
 LINK_UK_SCRIPT=$LINK_SCRIPT_DIREC/"links_uk.py"
 
-METADATA_INDIA_SCRIPT=$METADATA_SCRIPT_DIREC/"metadata_in.py"
-METADATA_USA_SCRIPT=$METADATA_SCRIPT_DIREC/"metadata_com.py"
-METADATA_UK_SCRIPT=$METADATA_SCRIPT_DIREC/"metadata_uk.py"
+METADATA_INDIA_SCRIPT=$METADATA_SCRIPT_DIREC/"products_in.py"
+METADATA_USA_SCRIPT=$METADATA_SCRIPT_DIREC/"products_com.py"
+METADATA_UK_SCRIPT=$METADATA_SCRIPT_DIREC/"products_uk.py"
 
-REVIEW_INDIA_SCRIPT=$REVIEW_SCRIPT_DIREC/"review_in.py"
-REVIEW_USA_SCRIPT=$REVIEW_SCRIPT_DIREC/"review_com.py"
-REVIEW_UK_SCRIPT=$REVIEW_SCRIPT_DIREC/"review_uk.py"
+REVIEW_INDIA_SCRIPT=$REVIEW_SCRIPT_DIREC/"reviews_in.py"
+REVIEW_USA_SCRIPT=$REVIEW_SCRIPT_DIREC/"reviews_com.py"
+REVIEW_UK_SCRIPT=$REVIEW_SCRIPT_DIREC/"reviews_uk.py"
 
 LOG_FILE_DIREC=$PROJECT_DIREC/"../log_files"
 
@@ -27,7 +28,7 @@ LOG_FILE_INDIA=$LOG_FILE_DIREC/"log_in.out"
 LOG_FILE_USA=$LOG_FILE_DIREC/"log_com.out"
 LOG_FILE_UK=$LOG_FILE_DIREC/"log_uk.out"
 
-DATABASE_DIREC="/home/kushagra/Documents/BTP/my_work/data"
+DATABASE_DIREC="../../../data"
 DATABASE_DIREC_INDIA=$DATABASE_DIREC/"in"
 DATABASE_DIREC_USA=$DATABASE_DIREC/"us"
 DATABASE_DIREC_UK=$DATABASE_DIREC/"uk"
@@ -35,17 +36,17 @@ DATABASE_DIREC_UK=$DATABASE_DIREC/"uk"
 SHELL_SCRIPT_DIREC=$PROJECT_DIREC/"4.shell_scripts"
 COLLECT_DATA_SCRIPT=$SHELL_SCRIPT_DIREC/"collect_data.sh"
 MAILING_SCRIPT=$SHELL_SCRIPT_DIREC/"mail_progess_report.sh"
-MAILING_ADDRESS="yashagrawal@iitkgp.ac.in"
+MAILING_ADDRESS="yashagrawal@iitkgp.ac.in, kushagra.iitkgp@iitkgp.ac.in"
 
 crontab -l > cronjobs
 echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_INDIA > /dev/null 2>&1" >> cronjobs
-echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_USA > /dev/null 2>&1" >> cronjobs
-echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_UK > /dev/null 2>&1" >> cronjobs
+# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_USA > /dev/null 2>&1" >> cronjobs
+# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_UK > /dev/null 2>&1" >> cronjobs
 crontab cronjobs
 
 $COLLECT_DATA_SCRIPT INDIA $DATABASE_DIREC_INDIA &
-$COLLECT_DATA_SCRIPT USA $DATABASE_DIREC_USA  	&
-$COLLECT_DATA_SCRIPT UK $DATABASE_DIREC_UK   	&
+# $COLLECT_DATA_SCRIPT USA $DATABASE_DIREC_USA  	&
+# $COLLECT_DATA_SCRIPT UK $DATABASE_DIREC_UK   	&
 wait
 
 rm cronjobs

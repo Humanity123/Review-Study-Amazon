@@ -63,6 +63,9 @@ class database_sqlite:
 	def set_table_name(self,table_name):
 		self.table = table_name
 
+	def is_review_present(self,prod_id):
+		return self.conn.execute("SELECT count(ProductID) from %s WHERE ProductID=\"%s\";" % (self.table,prod_id))
+
 	def get_count(self):
 		# LINKS = "LINKS"
 		cursor = self.conn.execute("SELECT count(*) from %s" % (self.table))

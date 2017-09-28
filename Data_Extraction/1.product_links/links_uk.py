@@ -1,9 +1,14 @@
 #!/usr/bin/python
+from pyvirtualdisplay import Display
 from selenium import webdriver
 import links_db as my_db
 from random import randint
 from time import sleep
 import sys
+
+#for redirecting output display when on ssh server
+display = Display(visible=0, size=(800, 600))
+display.start()
 
 conn = ""
 

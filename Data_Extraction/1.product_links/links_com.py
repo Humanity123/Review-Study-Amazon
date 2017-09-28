@@ -33,17 +33,17 @@ def store_links_in_page(address, driver):
 		# print(len(results))
 	
 		for result in results:
-		    # video = result.find_element_by_xpath('./li')
-		    # video = result
-		    Prod_id = result.get_attribute('data-asin')
-		    link = result.find_element_by_xpath('.//a[@class="a-link-normal s-access-detail-page  s-color-twister-title-link a-text-normal"]')
-		    # print("----------",len(link),"-----------")
-		    url = link.get_attribute('href')
-		    
-		    my_db.insert_link(Prod_id, url)
-		    # my_db.save_changes()
-		    
-		    # print("{} : {} ({})".format(Prod_id, url))
+			# video = result.find_element_by_xpath('./li')
+			# video = result
+			Prod_id = result.get_attribute('data-asin')
+			link = result.find_element_by_xpath('.//a[@class="a-link-normal s-access-detail-page  s-color-twister-title-link a-text-normal"]')
+			# print("----------",len(link),"-----------")
+			url = link.get_attribute('href')
+
+			my_db.insert_link(Prod_id, url)
+			# my_db.save_changes()
+
+			# print("{} : {} ({})".format(Prod_id, url))
 		my_db.save_changes()
 		# driver.quit()
 		return next_link

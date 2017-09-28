@@ -12,7 +12,7 @@ class database_sqlite:
 		self.conn.close()
 	def create_connection(self,db_file):
 		self.conn = sqlite3.connect(db_file)
-	    return None
+		return None
 
 	def insert_link(self,id_p,link):
 		cur = self.conn.cursor()
@@ -97,7 +97,8 @@ class database_sqlite:
 		return 0
 	def set_table_name(self,table_name):
 		self.table = table_name
-
+	def is_product_present(self,prod_id):
+		return self.conn.execute("SELECT count(PROD_ID) from %s WHERE PROD_ID=\"%s\";" % (self.table,prod_id))
 	def get_count(self,table_name):
 		# LINKS = "LINKS"
 		cursor = self.conn.execute("SELECT count(*) from %s_%s" % (self.table,table_name))

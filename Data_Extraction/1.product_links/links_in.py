@@ -1,21 +1,20 @@
 #!/usr/bin/python
-from pyvirtualdisplay import Display
+from xvfbwrapper import Xvfb
 from selenium import webdriver
 import links_db as my_db
 from random import randint
 from time import sleep
 import sys
 
+#for redirecting output display when on ssh server
+display = Display(visible=0, size=(800, 600))
+display.start()
+
 conn = ""
 
 cmd_arg = sys.argv
 database_dir = cmd_arg[1]
 database_path_links = database_dir + "/links.db"
-
-# For redirecting display of firefox to aid running of
-# code on server over SSH
-display = Display(visible=0, size=(800, 600))
-display.start()
 
 # stores all the productIds and their links in the current page with address as $address
 #assumpes that database conn has been set up
