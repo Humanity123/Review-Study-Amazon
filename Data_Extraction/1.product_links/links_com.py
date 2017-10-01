@@ -9,7 +9,7 @@ import sys
 conn = ""
 
 #for redirecting output display when on ssh server
-display = Display(visible=0, size=(800, 600))
+display = Display(visible=0, size=(1000, 1000))
 display.start()
 
 cmd_arg = sys.argv
@@ -60,18 +60,11 @@ def initialise_conn(file):
 def create_table():
 	my_db.create_table()
 
-def testing():
-	database_path = "/home/kushagra/Documents/BTP/my_work/tests/pythonsqlite.db"
-	initialise_conn(database_path)
-	my_db.insert_link("opbfhd", "fdhfjgh")
-	my_db.print_all()
-	my_db.save_changes()
-
 def spider_all(address):
 	crt_page = address
 	driver = webdriver.Firefox()
 	while crt_page:
-		sleep(randint(5,15))
+		sleep(randint(2,5))
 		ret_val = store_links_in_page(crt_page,driver)
 		if ret_val==-1:
 			sleep(5)
@@ -88,9 +81,9 @@ def spider_all(address):
 def main():
 	# database_path = "/home/kushagra/Documents/BTP/my_work/tests/pythonsqlite.db"
 	initialise_conn(database_path_links)
-
-	spider_all("https://www.amazon.com/s/ref=sr_ex_n_1?rh=n%3A2335752011%2Ck%3Aphones&bbn=2335752011&keywords=phones&ie=UTF8&qid=1503142996")
-	# my_db.create_table()
+	my_db.set_table_name("COM_LINKS")
+	my_db.create_table()
+	spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011&keywords=phones&ie=UTF8&qid=1506616738")
 	my_db.get_count()
 	# my_db.print_all()
 

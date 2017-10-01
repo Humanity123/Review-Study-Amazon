@@ -7,6 +7,7 @@ from time import sleep
 from datetime import datetime
 from selenium.webdriver.common.action_chains import ActionChains
 import sys
+
 #redirecting output display when using ssh server
 display = Display(visible=0, size=(1000, 800))
 display.start()
@@ -73,6 +74,7 @@ def store_metadata_in_page(ProdId, address, driver):
 	prod_db.save_changes()
 	print ProdId,  "Retrived successfully!!!"
 	prod_db.get_count(prod_table_name)
+	sys.stdout.flush()
 	return 1
 
 def testing():
@@ -96,10 +98,21 @@ def get_all_metadata():
 		try:
 			driver = webdriver.Firefox()
 			print "Firefox Running!!"
-			while row:	
-				print "Getting metadata for : ", row[0]
-				sleep(randint(5,15))
-				store_metadata_in_page(row[0],row[1],driver)
+			while row:
+				prod_table = my_db.database_sqlite()
+				prod_table.create_connection(database_path_prod)
+				prod_table.set_table_name(domain+"_"+prod_table_name)
+				val = prod_table.is_product_present(row[0])
+				va = val.fetchone()
+				cnt = va[0]
+				if cnt!=0:
+					print "Already Crawled Some Data for", row[0]
+					sys.stdout.flush()
+				else:
+					print "Getting metadata for : ", row[0]
+					sys.stdout.flush()
+					sleep(randint(2,5))
+					store_metadata_in_page(row[0],row[1],driver)
 				row = links_table.get_next_element()
 			break
 		except Exception as e:
@@ -111,14 +124,16 @@ def get_all_metadata():
 				print e
 			print "Retrying..."
 			retry_cnt-=1
-			
+		if retry_cnt==0:
+			print "Crawling FAILED! Going to next Product!"
+			row = links_table.get_next_element()
+			retry_cnt=5
 	links_table.get_count(lin_table_name)
 
 def main():
 	prod_table = my_db.database_sqlite()
 	prod_table.create_connection(database_path_prod)
 	prod_table.set_table_name(domain)
-
 	prod_table.create_table_products()
 	prod_table.create_table_img()
 	prod_table.create_table_desc()

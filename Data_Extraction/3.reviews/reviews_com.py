@@ -5,9 +5,9 @@ import reviews_db as my_db
 from random import randint
 from time import sleep
 from datetime import datetime
-
+import sys
 #redirecting output display when using ssh server
-display = Display(visible=0, size=(1000, 800))
+display = Display(visible=0, size=(800, 1200))
 display.start()
 
 cmd_arg = sys.argv
@@ -144,7 +144,7 @@ def get_all_reviews():
 		va = val.fetchone()
 		cnt = va[0]
 		if cnt!=0:
-			print "Already Crawled Some Data for", row[0]
+			print "Already Crawled Some ReviewData for", row[0]
 			sys.stdout.flush()
 			row = links_table.get_next_element()
 			continue

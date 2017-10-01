@@ -9,11 +9,17 @@ from selenium.webdriver.common.action_chains import ActionChains
 import sys
 
 #redirecting output display when using ssh server
-display = Display(visible=0, size=(1000, 800))
+display = Display(visible=0, size=(1000, 1000))
 display.start()
 
 cmd_arg = sys.argv
 database_dir = cmd_arg[1]
+us_db = database_dir + "/us/reviews.db"
+in_db = database_dir + "/in/reviews.db"
+uk_db = database_dir + "/uk/reviews.db"
+
+
+
 database_path_links = database_dir + "/links.db"
 database_path_reviews = database_dir + "/reviews.db"
 database_path_prod =  database_dir + "/products.db"
@@ -38,8 +44,8 @@ def store_metadata_in_page(ProdId, address, driver):
 	title = results.text
 
 	#getting star of product
-	result = driver.find_element_by_xpath('.//div[@id="averageCustomerReviews"]')
 	try:
+		result = driver.find_element_by_xpath('.//div[@id="averageCustomerReviews"]')
 		result = result.find_element_by_xpath('.//span[@id="acrPopover"]')
 		stars = result.get_attribute('title').split(" ")[0]
 	except:
@@ -75,14 +81,8 @@ def store_metadata_in_page(ProdId, address, driver):
 	prod_db.save_changes()
 	print ProdId,  "Retrived successfully!!!"
 	prod_db.get_count(prod_table_name)
+	sys.stdout.flush()
 	return 1
-
-def testing():
-	database_path = "/home/gulab/pythonsqlite.db"
-	initialise_conn(database_path)
-	my_db.insert_link("opbfhd", "fdhfjgh")
-	my_db.print_all()
-	my_db.save_changes()
 
 #getting metadata for all products in LINK table
 def get_all_metadata():
@@ -99,9 +99,21 @@ def get_all_metadata():
 			driver = webdriver.Firefox()
 			print "Firefox Running!!"
 			while row:	
-				print "Getting metadata for : ", row[0]
-				sleep(randint(5,15))
-				store_metadata_in_page(row[0],row[1],driver)
+				prod_table = my_db.database_sqlite()
+				prod_table.create_connection(database_path_prod)
+				prod_table.set_table_name(domain+"_"+prod_table_name)
+				val = prod_table.is_product_present(row[0])
+				va = val.fetchone()
+				cnt = va[0]
+				if cnt!=0:
+					print "Already Crawled Some MetaData for", row[0]
+					sys.stdout.flush()
+				else:
+					prod_table.close_connection()
+					print "Getting metadata for : ", row[0]
+					sys.stdout.flush()
+					sleep(randint(2,5))
+					store_metadata_in_page(row[0],row[1],driver)
 				row = links_table.get_next_element()
 			break
 		except Exception as e:
@@ -113,6 +125,10 @@ def get_all_metadata():
 				print e
 			print "Retrying..."
 			retry_cnt-=1
+		if retry_cnt==0:
+			print "Crawling FAILED! Going to next Product!"
+			row = links_table.get_next_element()
+			retry_cnt=5
 	links_table.get_count(lin_table_name)
 	
 def main():

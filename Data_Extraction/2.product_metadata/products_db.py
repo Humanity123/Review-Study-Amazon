@@ -10,6 +10,8 @@ class database_sqlite:
 		self.iter_ = ""
 	def __del__(self):
 		self.conn.close()
+	def close_connection(self):
+		self.conn.close()
 	def create_connection(self,db_file):
 		self.conn = sqlite3.connect(db_file)
 		return None

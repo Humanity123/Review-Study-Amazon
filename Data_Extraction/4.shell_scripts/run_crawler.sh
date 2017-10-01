@@ -39,13 +39,13 @@ MAILING_SCRIPT=$SHELL_SCRIPT_DIREC/"mail_progess_report.sh"
 MAILING_ADDRESS="yashagrawal@iitkgp.ac.in, kushagra.iitkgp@iitkgp.ac.in"
 
 crontab -l > cronjobs
-echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_INDIA > /dev/null 2>&1" >> cronjobs
-# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_USA > /dev/null 2>&1" >> cronjobs
+# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_INDIA > /dev/null 2>&1" >> cronjobs
+echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_USA > /dev/null 2>&1" >> cronjobs
 # echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_UK > /dev/null 2>&1" >> cronjobs
 crontab cronjobs
 
-$COLLECT_DATA_SCRIPT INDIA $DATABASE_DIREC_INDIA &
-# $COLLECT_DATA_SCRIPT USA $DATABASE_DIREC_USA  	&
+# $COLLECT_DATA_SCRIPT INDIA $DATABASE_DIREC_INDIA &
+$COLLECT_DATA_SCRIPT USA $DATABASE_DIREC_USA  	&
 # $COLLECT_DATA_SCRIPT UK $DATABASE_DIREC_UK   	&
 wait
 

@@ -1,0 +1,1 @@
+Rev_ID (ReviewId) -> ProductID (ProductId), Rev_Date (ReviewDate), Rev_Votes (ReviewUpvotes), Review_Data (Review), Rev_Stars (ReviewStar)

@@ -134,7 +134,6 @@ def main():
 	prod_table = my_db.database_sqlite()
 	prod_table.create_connection(database_path_prod)
 	prod_table.set_table_name(domain)
-
 	prod_table.create_table_products()
 	prod_table.create_table_img()
 	prod_table.create_table_desc()
