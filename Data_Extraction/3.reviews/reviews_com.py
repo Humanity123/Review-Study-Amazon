@@ -26,6 +26,8 @@ def store_reviews_in_page(ProdId, address, driver):
 		rev_table = my_db.database_sqlite()
 		rev_table.create_connection(database_path_reviews)
 		rev_table.set_table_name(rev_table_name)
+		cnt = 0
+		cnt = rev_table.get_count()
 		driver.get(address)
 		print  "Review Page Accessed!"
 		try:
@@ -42,7 +44,7 @@ def store_reviews_in_page(ProdId, address, driver):
 
 		#iterating over the reviews in current page
 		for result in results:
-			review_id = result.get_attribute('id')
+			review_id = ProdId + "#" + cnt
 			review = result.find_element_by_xpath('./div')
 			
 			stars = review.find_element_by_xpath('./div/a')
@@ -68,6 +70,7 @@ def store_reviews_in_page(ProdId, address, driver):
 			rev_data = rev_data.text
 	    
 			rev_table.insert_review(review_id, ProdId, date, vote, rev_data, stars)
+			cnt+=1
 		#commit changes in db if no error encountered
 		rev_table.save_changes()
 		print "REVIEWS On PAGE SAVED"

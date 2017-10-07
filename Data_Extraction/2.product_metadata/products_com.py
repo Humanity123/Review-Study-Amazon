@@ -38,6 +38,7 @@ def store_metadata_in_page(ProdId, address, driver):
 	prod_db.set_table_name(domain)
 	driver.get(address)
 	print "Retrieved Product Page successfully!!!"
+	print address
 
 	results = driver.find_element_by_xpath('.//span[@id="productTitle"]')
 	#getting title of product

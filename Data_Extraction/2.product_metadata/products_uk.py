@@ -32,6 +32,7 @@ def store_metadata_in_page(ProdId, address, driver):
 	prod_db.set_table_name(domain)
 	driver.get(address)
 	print "Retrieved Product Page successfully!!!"
+	print address
 
 	results = driver.find_element_by_xpath('.//span[@id="productTitle"]')
 	#getting title of product
@@ -98,6 +99,7 @@ def get_all_metadata():
 		try:
 			driver = webdriver.Firefox()
 			print "Firefox Running!!"
+			sys.stdout.flush()
 			while row:
 				prod_table = my_db.database_sqlite()
 				prod_table.create_connection(database_path_prod)

@@ -49,6 +49,7 @@ def store_links_in_page(address, driver):
 		my_db.save_changes()
 		# driver.quit()
 		print("success!")
+		sys.stdout.flush()
 		return next_link
 	except Exception as e:
 		print e

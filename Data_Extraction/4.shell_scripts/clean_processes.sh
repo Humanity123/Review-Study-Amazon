@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 CURRENT_DIREC=$(pwd)
 PROJECT_DIREC=$(pwd)/".."
@@ -33,20 +32,13 @@ DATABASE_DIREC_INDIA=$DATABASE_DIREC/"in"
 DATABASE_DIREC_USA=$DATABASE_DIREC/"us"
 DATABASE_DIREC_UK=$DATABASE_DIREC/"uk"
 
-SHELL_SCRIPT_DIREC=$PROJECT_DIREC/"4.shell_scripts"
-COLLECT_DATA_SCRIPT=$SHELL_SCRIPT_DIREC/"collect_data.sh"
-MAILING_SCRIPT=$SHELL_SCRIPT_DIREC/"mail_progess_report.sh"
-MAILING_ADDRESS="kushagra.iitkgp@iitkgp.ac.in"
+function pkill(){
+   kill -9  $(ps aux | grep -i $1 | awk '{print $2}')
+}
 
-crontab -l > cronjobs
-# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_INDIA > /dev/null 2>&1" >> cronjobs
-echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_USA > /dev/null 2>&1" >> cronjobs
-# echo "* 1 * * * $MAILING_SCRIPT $LOG_FILE_UK > /dev/null 2>&1" >> cronjobs
-crontab cronjobs
+pkill collect
+pkill firefox
+pkill python
+pkill geckodriver
+pkill Xvfb
 
-# $COLLECT_DATA_SCRIPT INDIA $DATABASE_DIREC_INDIA &
-$COLLECT_DATA_SCRIPT USA $DATABASE_DIREC_USA  	&
-# $COLLECT_DATA_SCRIPT UK $DATABASE_DIREC_UK   	&
-wait
-
-rm cronjobs

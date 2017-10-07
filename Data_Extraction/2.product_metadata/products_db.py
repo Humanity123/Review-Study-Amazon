@@ -29,6 +29,9 @@ class database_sqlite:
 	def initialise_cursor(self,table_name):
 		self.iter_ = self.conn.execute("SELECT * from %s_%s" % (self.table,table_name))
 
+	def initialise_cursor_description(self, table_name, prod_id):
+		self.iter_ = self.conn.execute("SELECT * from %s_%s WHERE PROD_ID=\"%s\"" % (self.table,table_name,prod_id))
+
 	def get_next_element(self):
 		return self.iter_.fetchone()
 

@@ -46,6 +46,7 @@ def store_links_in_page(address, driver):
 		    # print("{} : {} ({})".format(Prod_id, url))
 		my_db.save_changes()
 		# driver.quit()
+		sys.stdout.flush()
 		return next_link
 	except :
 		print "Error"

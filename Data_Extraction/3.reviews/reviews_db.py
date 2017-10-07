@@ -70,9 +70,8 @@ class database_sqlite:
 		# LINKS = "LINKS"
 		cursor = self.conn.execute("SELECT count(*) from %s" % (self.table))
 		for row in cursor:
-			print "COUNT = ", row[0]
-
-		print "Operation done successfully";
+			print row[0]
+			return row[0]
 
 	def print_all(self):
 		cursor = self.conn.execute("SELECT * from %s" % (self.table))

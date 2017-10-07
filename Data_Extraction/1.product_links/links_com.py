@@ -46,6 +46,7 @@ def store_links_in_page(address, driver):
 			# print("{} : {} ({})".format(Prod_id, url))
 		my_db.save_changes()
 		# driver.quit()
+		sys.stdout.flush()
 		return next_link
 	except :
 		print "Error"
@@ -83,7 +84,8 @@ def main():
 	initialise_conn(database_path_links)
 	my_db.set_table_name("COM_LINKS")
 	my_db.create_table()
-	spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011&keywords=phones&ie=UTF8&qid=1506616738")
+	# spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011&keywords=phones&ie=UTF8&qid=1506616738")
+	spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011%7C6215727011&keywords=phones&ie=UTF8&qid=1507033725&rnid=6215726011")
 	my_db.get_count()
 	# my_db.print_all()
 
