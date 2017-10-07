@@ -33,10 +33,12 @@ def store_metadata_in_page(ProdId, address, driver):
 	driver.get(address)
 	print "Retrieved Product Page successfully!!!"
 	print address
+	sys.stdout.flush()
 	results = driver.find_element_by_xpath('.//span[@id="productTitle"]')
 	#getting title of product
 	title = results.text
-
+	print title
+	sys.stdout.flush()
 	#getting star of product
 	result = driver.find_element_by_xpath('.//div[@id="averageCustomerReviews"]')
 	try:
@@ -93,11 +95,12 @@ def get_all_metadata():
 	links_table.initialise_cursor(lin_table_name)
 	#get next row in db
 	row = links_table.get_next_element()
-	retry_cnt = 5
+	retry_cnt = 2
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
 			print "Firefox Running!!"
+			sys.stdout.flush()
 			while row:
 				prod_table = my_db.database_sqlite()
 				prod_table.create_connection(database_path_prod)
@@ -115,19 +118,20 @@ def get_all_metadata():
 					store_metadata_in_page(row[0],row[1],driver)
 				row = links_table.get_next_element()
 			break
-		except Exception as e:
+		except Exception as e:	
 			print "Error in getting metadata!"
 			print e
 			try:
 				driver.quit()
-			except Exception as e:
-				print e
+			except:
+				print "Firefox closed accidentally!!"
+				sys.stdout.flush()
 			print "Retrying..."
 			retry_cnt-=1
 		if retry_cnt==0:
 			print "Crawling FAILED! Going to next Product!"
 			row = links_table.get_next_element()
-			retry_cnt=5
+			retry_cnt=2
 	links_table.get_count(lin_table_name)
 
 def main():
@@ -139,14 +143,6 @@ def main():
 	prod_table.create_table_desc()
 	
 	get_all_metadata()
-
-	# prod_table.get_count(prod_table_name)
-	# prod_table.print_all(prod_table_name)
-	# prod_table.print_all(desc_table_name)
-	# prod_table.print_all(img_table_name)
-	# prod_table.get_count(prod_table_name)
-	# prod_table.get_count(desc_table_name)
-	# prod_table.get_count(img_table_name)
 
 if __name__ == '__main__':
 	main()

@@ -7,6 +7,7 @@ from time import sleep
 from datetime import datetime
 from selenium.webdriver.common.action_chains import ActionChains
 import sys
+import psutil
 
 #redirecting output display when using ssh server
 display = Display(visible=0, size=(1000, 1000))
@@ -14,11 +15,6 @@ display.start()
 
 cmd_arg = sys.argv
 database_dir = cmd_arg[1]
-us_db = database_dir + "/us/reviews.db"
-in_db = database_dir + "/in/reviews.db"
-uk_db = database_dir + "/uk/reviews.db"
-
-
 
 database_path_links = database_dir + "/links.db"
 database_path_reviews = database_dir + "/reviews.db"
@@ -39,11 +35,12 @@ def store_metadata_in_page(ProdId, address, driver):
 	driver.get(address)
 	print "Retrieved Product Page successfully!!!"
 	print address
-
+	sys.stdout.flush()
 	results = driver.find_element_by_xpath('.//span[@id="productTitle"]')
 	#getting title of product
 	title = results.text
-
+	print title
+	sys.stdout.flush()
 	#getting star of product
 	try:
 		result = driver.find_element_by_xpath('.//div[@id="averageCustomerReviews"]')
@@ -94,11 +91,13 @@ def get_all_metadata():
 	links_table.initialise_cursor(lin_table_name)
 	#get next row in db
 	row = links_table.get_next_element()
-	retry_cnt = 5
+	retry_cnt = 2
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
+			driver_process = psutil.Process(driver.service.process.pid)
 			print "Firefox Running!!"
+			sys.stdout.flush()
 			while row:	
 				prod_table = my_db.database_sqlite()
 				prod_table.create_connection(database_path_prod)
@@ -106,11 +105,11 @@ def get_all_metadata():
 				val = prod_table.is_product_present(row[0])
 				va = val.fetchone()
 				cnt = va[0]
+				prod_table.close_connection()
 				if cnt!=0:
 					print "Already Crawled Some MetaData for", row[0]
 					sys.stdout.flush()
 				else:
-					prod_table.close_connection()
 					print "Getting metadata for : ", row[0]
 					sys.stdout.flush()
 					sleep(randint(2,5))
@@ -120,16 +119,30 @@ def get_all_metadata():
 		except Exception as e:
 			print "Error in getting metadata!"
 			print e
-			try:
-				driver.quit()
-			except Exception as e:
-				print e
+			
+			if driver_process.is_running():
+				print ("driver is running")
+
+				firefox_process = driver_process.children()
+				if firefox_process:
+					firefox_process = firefox_process[0]
+
+					if firefox_process.is_running():
+						print("Firefox is still running, we can quit")
+						driver.quit()
+					else:
+						print("Firefox is dead, can't quit. Let's kill the driver")
+						firefox_process.kill()
+				else:
+					print("driver has died")
+				sys.stdout.flush()
 			print "Retrying..."
 			retry_cnt-=1
 		if retry_cnt==0:
 			print "Crawling FAILED! Going to next Product!"
 			row = links_table.get_next_element()
-			retry_cnt=5
+			retry_cnt=2
+		sys.stdout.flush()
 	links_table.get_count(lin_table_name)
 	
 def main():
