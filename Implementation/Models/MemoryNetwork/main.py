@@ -5,8 +5,11 @@ from model import MemN2N
 
 flags = tf.app.flags
 
-flags.DEFINE_integer("batch_size", 100, "batch size for training [100]") // actual value to be filled later
+flags.DEFINE_integer("hops", 3, "number of layers/hops [3]")
+flags.DEFINE_integer("dim", 300, "number of layers/hops [300]")	# actual value to be filled later
+flags.DEFINE_integer("batch_size", 100, "batch size for training [100]") # actual value to be filled later
 flags.DEFINE_float("init_std", 0.05, "weight initialization std [0.05]")
+flags.DEFINE_float("lmda", 0.5, "weight initialization std [0.5]")
 flags.DEFINE_string("data_name", "reviews_us", "data set name [reviews_us]")
 flags.DEFINE_string("checkpoint_dir", "checkpoints", "String: Directory name for checkpoints [checkpoints]")
 flags.DEFINE_string("data_dir", "data", "String: Directory name for checkpoints [data]")
