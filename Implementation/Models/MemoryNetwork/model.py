@@ -67,11 +67,15 @@ class model(object):
 		x_embed_reshaped_C_p = tf.reshape(x_embed_C_p, [-1, self.dim])
 		c_p = tf.reshape(tf.transpose(tf.matmul(self.Vq_t, tf.transpose(x_embed_reshaped_C))), [-1, tf.shape(self.x)[1], self.dim])
 		
+		a_t_avg = tf.scalar_mul(1.0/self.hops, a_t_avg)
+
+		a_t_avg = tf.divide(tf.cumsum(a_t_avg, axis = 1), tf.cast(tf.range(1, tf.shape(a_t_avg)[1]+1), tf.float32))
+
 		for hop in range(self.hops):
 			u_expanded_dim = tf.expand_dims(u, 2)
 			a_p = tf.nn.softmax(tf.squeeze(tf.matmul(m_p, u_expanded_dim),2))
 
-			b_p =  #To be Written 
+			b_p =  tf.add(tf.scalar_mul(1-self.lmda, a_p), tf.scalar_mul(self.lmda, a_t_avg))
 
 			b_p_expanded_dim = tf.expand_dims(b_p, 1)
 			o_p = tf.squeze(tf.matmul(b_p_expanded_dim, c_p), 1)			
