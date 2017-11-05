@@ -9,7 +9,7 @@ import sys
 conn = ""
 
 #for redirecting output display when on ssh server
-display = Display(visible=0, size=(1000, 1000))
+display = Display(visible=0, size=(1000, 1200))
 display.start()
 
 cmd_arg = sys.argv
@@ -21,13 +21,14 @@ database_path_links = database_dir + "/links.db"
 def store_links_in_page(address, driver):
 	# driver = webdriver.Firefox()
 	try:
+		print address
+		sys.stdout.flush()
 		driver.get(address)
-
 		answer = driver.find_element_by_xpath('//ul[@id="s-results-list-atf"]')
 		results = answer.find_elements_by_xpath('./li')
 		try:
 			next_page = driver.find_element_by_xpath('//a[@id="pagnNextLink"]')
-			next_link = next_page.get_attribute('href')
+			next_link = next_page.get_attribute('href').encode('ascii','ignore')
 		except:
 			next_link=0
 		# print(len(results))
@@ -35,10 +36,10 @@ def store_links_in_page(address, driver):
 		for result in results:
 			# video = result.find_element_by_xpath('./li')
 			# video = result
-			Prod_id = result.get_attribute('data-asin')
+			Prod_id = result.get_attribute('data-asin').encode('ascii','ignore')
 			link = result.find_element_by_xpath('.//a[@class="a-link-normal s-access-detail-page  s-color-twister-title-link a-text-normal"]')
 			# print("----------",len(link),"-----------")
-			url = link.get_attribute('href')
+			url = link.get_attribute('href').encode('ascii','ignore')
 
 			my_db.insert_link(Prod_id, url)
 			# my_db.save_changes()
@@ -46,10 +47,13 @@ def store_links_in_page(address, driver):
 			# print("{} : {} ({})".format(Prod_id, url))
 		my_db.save_changes()
 		# driver.quit()
+		print "Links on Page saved!"
+		my_db.get_count()
 		sys.stdout.flush()
 		return next_link
-	except :
-		print "Error"
+	except Exception as e:
+		my_db.discard_changes()
+		print "Error in getting links on current page : ",e
 	# driver.quit()
 	return -1
 
@@ -84,8 +88,7 @@ def main():
 	initialise_conn(database_path_links)
 	my_db.set_table_name("COM_LINKS")
 	my_db.create_table()
-	# spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011&keywords=phones&ie=UTF8&qid=1506616738")
-	spider_all("https://www.amazon.com/s/ref=sr_nr_p_n_feature_seven_br_0?fst=as%3Aoff&rh=n%3A2335752011%2Cn%3A7072561011%2Ck%3Aphones%2Cp_n_feature_seven_browse-bin%3A6215728011%7C6215729011%7C6215730011%7C6215731011%7C6215727011&keywords=phones&ie=UTF8&qid=1507033725&rnid=6215726011")
+	spider_all("https://www.amazon.com/s/gp/search/ref=sr_nr_p_n_feature_two_brow_3?fst=as%3Aoff&rh=n%3A172282%2Cn%3A502394%2Cn%3A281052%2Ck%3Acamera%2Cp_n_feature_two_browse-bin%3A10705380011%7C10705381011%7C10705382011%7C10705383011&keywords=camera&ie=UTF8&qid=1509109782&rnid=405449011")
 	my_db.get_count()
 	# my_db.print_all()
 

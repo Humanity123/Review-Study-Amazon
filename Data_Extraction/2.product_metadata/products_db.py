@@ -112,6 +112,10 @@ class database_sqlite:
 
 		print "Operation done successfully";
 
+	def get_same_prodId(db_file, table_name1, table_name2):
+		self.conn.execute("attach \'%s\' as db2;" % (db_file))
+		return self.conn.execute("SELECT count(*) from %s_PROD a inner join db2.%s_PROD b on a.PROD_ID = b.PROD_ID;" % (table_name1, table_name2))
+
 	def print_all(self,table_name):
 		cursor = self.conn.execute("SELECT * from %s_%s" % (self.table,table_name))
 		for row in cursor:
@@ -130,6 +134,8 @@ class database_sqlite:
 			self.conn.commit()
 		except Exception as e:
 			print e
+	def discard_changes(self):
+		self.conn.rollback();
 def main():
     database = "/home/gulab/pythonsqlite.db"
  

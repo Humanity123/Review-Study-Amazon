@@ -47,7 +47,7 @@ def get_count():
 	# LINKS = "LINKS"
 	cursor = conn.execute("SELECT count(*) from %s" % (table))
 	for row in cursor:
-		print "COUNT = ", row[0], "\n"
+		print "COUNT = ", row[0]
 		# print "LINK = ", row[1], "\n"
 		# print "ADDRESS = ", row[2]
 		# print "SALARY = ", row[3], "\n"
@@ -66,6 +66,9 @@ def print_all():
 
 def save_changes():
 	conn.commit()
+	
+def discard_changes():
+	conn.rollback();
 
 def main():
     database = "/home/kushagra/Documents/BTP/my_work/tests/pythonsqlite.db"

@@ -20,14 +20,13 @@ rev_table_name = "CA_REV"
 lin_table_name = "CA_LINKS"
 
 #stores reviews in the current page and returns the link to NEXT page
-def store_reviews_in_page(ProdId, address, driver):
+def store_reviews_in_page(ProdId, address, driver, count):
 	#create connection to the database
 	rev_table = my_db.database_sqlite()
 	rev_table.create_connection(database_path_reviews)
 	rev_table.set_table_name(rev_table_name)
 	try:
-		cnt = 0
-		cnt = rev_table.get_count()
+		cnt = count
 		driver.get(address)
 		print  "Review Page Accessed!"
 		try:
@@ -44,7 +43,7 @@ def store_reviews_in_page(ProdId, address, driver):
 
 		#iterating over the reviews in current page
 		for result in results:
-			review_id = ProdId + "#" + cnt
+			review_id = ProdId + "#" + str(cnt)
 			review = result.find_element_by_xpath('./div')
 			
 			stars = review.find_element_by_xpath('./div/a')
@@ -76,12 +75,12 @@ def store_reviews_in_page(ProdId, address, driver):
 		print "REVIEWS On PAGE SAVED"
 		rev_table.get_count()
 		sys.stdout.flush()
-		return next_link
+		return next_link, cnt
 	except Exception as e:
 		rev_table.discard_changes()
 		print e
 	# driver.quit()
-	return -1
+	return -1, count
 
 def testing():
 	database_path = "/home/gulab/pythonsqlite.db"
@@ -97,12 +96,16 @@ def spider_all(ProdId,address):
 	while retry_cnt:
 		try:
 			driver = webdriver.Firefox()
-			print "Firefox runnning to crawl ", ProdId
+			print "Firefox runnning to crawl ", ProdId, crt_page
+			sys.stdout.flush()
 			driver.get(crt_page)
 			results = driver.find_elements_by_xpath('.//div[@id="reviewSummary"]')
-			result = results[0].find_element_by_xpath('./div/a')
+			try:
+				result = results[0].find_element_by_xpath('./div/a')
+			except:
+				review_link=0
+				break
 			review_link = result.get_attribute('href')
-			print review_link
 		except Exception as e:
 			print "Error in getting to review page!"
 			print e
@@ -112,6 +115,7 @@ def spider_all(ProdId,address):
 				print e
 			print "Retrying..."
 			retry_cnt-=1
+			sys.stdout.flush()
 			continue
 		break;
 	if retry_cnt==0:
@@ -119,9 +123,13 @@ def spider_all(ProdId,address):
 	crt_page = review_link
 
 	print "Starting to crawl reviews!"
+	sys.stdout.flush()
+	count = 1
 	while crt_page:
-		sleep(randint(5,15))
-		ret_val = store_reviews_in_page(ProdId,crt_page,driver)
+		sleep(randint(2,5))
+		ret_val, count = store_reviews_in_page(ProdId,crt_page,driver,count)
+		print count-1, " reviews crawled for current Product!"
+		sys.stdout.flush()
 		if ret_val==-1:
 			sleep(5)
 			try:
@@ -153,9 +161,11 @@ def get_all_reviews():
 			row = links_table.get_next_element()
 			continue
 		print "Crawling for", row[0], " started!"
+		sys.stdout.flush()
 		ret_val = spider_all(row[0],row[1])
 		if ret_val==-1:
 			print "Unsuccesfull crawl Attempt! Going to next product"
+			sys.stdout.flush()
 		row = links_table.get_next_element()
 
 def main():
@@ -163,7 +173,8 @@ def main():
 	rev_table.create_connection(database_path_reviews)
 	rev_table.set_table_name(rev_table_name)
 	rev_table.create_table_reviews()
-
+	print "Starting New RUN---------------------------------------"
+	sys.stdout.flush()
 	get_all_reviews()
 
 	rev_table.get_count()

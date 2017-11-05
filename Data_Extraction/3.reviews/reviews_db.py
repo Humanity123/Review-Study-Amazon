@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 import sqlite3
+import json
 from sqlite3 import Error
+
 
 #class to handle table in a database
 class database_sqlite:
@@ -87,6 +89,20 @@ class database_sqlite:
 			self.conn.commit()
 		except Exception as e:
 			print e
+	def discard_changes(self):
+		self.conn.rollback();
+	def dump(self, file):
+		fp = open(file+".txt", "a")
+		output_dict = []
+		cursor = self.conn.execute("SELECT * from %s" % (self.table))
+		for row in cursor:
+			fp.write(str(row[0])+"\t" + str(row[1])+"\t"+str(row[2])+"\t"+str(row[3])+"\t"+str(row[4])+"\t"+str(row[5])+"\t")
+			output_dict.append({'review_id':row[0], 'product_id':row[1], 'time':row[2], 'helpfulness':row[3], 'review':row[4], 'star_rating':row[5]})
+		fp.close()
+		with open(file+'_dict.txt', 'w') as file:
+			file.write(json.dumps(output_dict))
+		print "Operation done successfully";
+
 def main():
     database = "/review.db"
 
