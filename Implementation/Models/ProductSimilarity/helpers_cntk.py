@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os, random, pdb
 import matplotlib.pyplot as plt
 
@@ -12,7 +13,25 @@ from cntk.logging.graph import find_by_name
 from cntk.ops import input_variable, combine
 from cntk.ops.functions import CloneMethod
 
+from helpers import *
+
 random.seed(0)
+
+#NOTE: the functionality in this file is adapted and extended from CNTK's transfer learning tutorial:
+#  https://github.com/Microsoft/CNTK/wiki/Build-your-own-image-classifier-using-Transfer-Learning
+
+
+################################
+# helper functions - cntk
+################################
+def printDeviceType(boGpuRequired = False):
+    if use_default_device().type() != 0:
+        print("Using GPU for CNTK training/scoring.")
+    else:
+        print("WARNING: using CPU for CNTK training/scoring.")
+        if boGpuRequired:
+            raise Exception("Cannot find GPU or GPU is already locked.")
+
 
 # Creates a minibatch source for training or testing
 def create_mb_source(map_file, image_width, image_height, num_channels, num_classes, boTrain):
@@ -63,6 +82,7 @@ def create_model(base_model_file, input_features, num_classes,  dropout_rate = 0
     # Add new dense layer for class prediction
     finalModel = Dense(num_classes, activation=None, name="prediction") (avgPoolDrop)
     return finalModel
+
 
 # Trains a transfer learning model
 def train_model(base_model_file, train_map_file, test_map_file, input_resolution,
@@ -140,6 +160,19 @@ def train_model(base_model_file, train_map_file, test_map_file, input_resolution
         plt.title('Training error (blue), test error (green)')
         plt.draw()
     return cntkModel
+
+
+# Evaluate model accuracy
+def cntkComputeTestError(trainer, minibatch_source_test, mb_size, epoch_size, input_map):
+    acc_numer = 0
+    sample_counts = 0
+    while sample_counts < epoch_size:  # Loop over minibatches in the epoch
+        sample_count = min(mb_size, epoch_size - sample_counts)
+        data = minibatch_source_test.next_minibatch(sample_count, input_map = input_map)
+        acc_numer     += trainer.test_minibatch(data) * sample_count
+        sample_counts += sample_count
+    return acc_numer / float(sample_counts)
+
 
 def runCntkModel(model, map_file, node_name = [], mb_size = 1):
     # Get minibatch source
