@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from helpers import *
+from helpers import *   
 locals().update(importlib.import_module("PARAMETERS").__dict__)
 import time
 
@@ -13,7 +13,7 @@ downloadTopNImages = sys.maxsize  #set to e.g. 50 to only download the first 50 
 # Main
 ####################################
 print rootDir, imgDir
-time.sleep(20)
+time.sleep(5)
 makeDirectory(rootDir + "/data/")
 makeDirectory(imgDir)
 counter = 0

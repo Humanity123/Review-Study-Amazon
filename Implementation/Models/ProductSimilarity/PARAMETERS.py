@@ -4,7 +4,7 @@ import sys, os
 
 #######################################
 #######################################
-datasetName = "fashionTexture"          # Name of the image directory, e.g. /data/myFashion_texture/
+datasetName = "images"          # Name of the image directory, e.g. /data/myFashion_texture/
 
 
 ###################
@@ -58,7 +58,7 @@ resultsDir   = rootDir + "results/" + datasetName + "/"
 workingDir   = rootDir + "tmp/"
 
 # Files
-imgUrlsPath             = resourcesDir + "fashionTextureUrls.tsv"
+imgUrlsPath             = resourcesDir + "images.tsv"
 imgInfosTrainPath       = procDir + "imgInfosTrain.pickle"
 imgInfosTestPath        = procDir + "imgInfosTest.pickle"
 imgFilenamesTrainPath   = procDir + "imgFilenamesTrain.pickle"
