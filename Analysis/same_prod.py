@@ -5,16 +5,8 @@ import heapq
 from nltk.tokenize import word_tokenize
 sys.path.append("../Data_Extraction/2.product_metadata/")
 import products_db as my_db
+import pickle
 
-cmd_arg = sys.argv
-root_dir = cmd_arg[1]
-database_dir = root_dir + "/data/phone_data"
-# database_dir = "/home/kushagra/Documents/BTP/my_work/data/phone_data"
-us_db = database_dir + "/us/products.db"
-in_db = database_dir + "/in/products.db"
-uk_db = database_dir + "/uk/products.db"
-ca_db = database_dir + "/ca/products.db"
-dbs = [in_db, uk_db, us_db, ca_db]
 domains = ["IN", "UK", "COM", "CA"]
 
 prod_table_name = "PROD"
@@ -29,14 +21,14 @@ def get_features(raw_documents):
 	sims = gensim.similarities.Similarity('./', tf_idf[corpus], num_features=len(dictionary))
 	return sims
 
-def get_ids_reviews():
+def get_ids_reviews(dbs_all):
 	'''extracts ProductId, Title and Domain from the database'''
 	raw_documents = []
 	ids = []
 	dns = []
-	for i in range(0,len(dbs)):
+	for i in range(0,len(dbs_all)):
 		metadata_table = my_db.database_sqlite()
-		metadata_table.create_connection(dbs[i])
+		metadata_table.create_connection(dbs_all[i])
 		metadata_table.set_table_name(domains[i])
 		#initialise a cursor in db
 		metadata_table.initialise_cursor(prod_table_name)
@@ -62,7 +54,17 @@ def get_index_similarity_matrix(sims, dns):
 	return top_sim
 
 def main():
-	ids, raw_documents, dns = get_ids_reviews()
+	cmd_arg = sys.argv
+	root_dir = cmd_arg[1]
+	database_dir = root_dir + "/data/phone_data"
+	# database_dir = "/home/kushagra/Documents/BTP/my_work/data/phone_data"
+	us_db = database_dir + "/us/products.db"
+	in_db = database_dir + "/in/products.db"
+	uk_db = database_dir + "/uk/products.db"
+	ca_db = database_dir + "/ca/products.db"
+	dbs = [in_db, uk_db, us_db, ca_db]
+
+	ids, raw_documents, dns = get_ids_reviews(dbs)
 	print("Number of documents:",len(raw_documents))
 
 	print "Getting Bag of Words -> tf-idf"
@@ -74,18 +76,19 @@ def main():
 	print "Got Similarity Matrix"
 
 	print "Getting top matches..."
-	matches_f = [ (ids[crt],ids[elem[0][0]], elem[0][1])  for crt, elem in enumerate(ans)]
-	matches_sorted = sorted(matches_f, key=lambda x:x[2], reverse=True) 
+	matches_f = [ (ids[crt],dns[crt],ids[elem[0][0]],dns[elem[0][0]] elem[0][1])  for crt, elem in enumerate(ans)]
+	matches_sorted = sorted(matches_f, key=lambda x:x[4], reverse=True) 
 
+	pickle.dump(matches_sorted, open("output_prod_matches","w"))
 	print matches_sorted[:20]
 	print "======================="
-	print matches_sorted[200:220]
-	print "===============0========"
-	print matches_sorted[400:420]
+	print matches_sorted[5000:5020]
 	print "======================="
-	print matches_sorted[600:620]
+	print matches_sorted[10000:10020]
 	print "======================="
-	print matches_sorted[800:820]
+	print matches_sorted[15000:15020]
+	print "======================="
+	print matches_sorted[21000:21020]
 	
 	print len(matches_sorted)
 
