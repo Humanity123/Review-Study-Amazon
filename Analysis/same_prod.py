@@ -21,7 +21,7 @@ def get_features(raw_documents):
 	sims = gensim.similarities.Similarity('./', tf_idf[corpus], num_features=len(dictionary))
 	return sims
 
-def get_ids_reviews(dbs_all):
+def get_ids_reviews(dbs_all, domains):
 	'''extracts ProductId, Title and Domain from the database'''
 	raw_documents = []
 	ids = []
@@ -64,7 +64,7 @@ def main():
 	ca_db = database_dir + "/ca/products.db"
 	dbs = [in_db, uk_db, us_db, ca_db]
 
-	ids, raw_documents, dns = get_ids_reviews(dbs)
+	ids, raw_documents, dns = get_ids_reviews(dbs, domains)
 	print("Number of documents:",len(raw_documents))
 
 	print "Getting Bag of Words -> tf-idf"
@@ -76,7 +76,7 @@ def main():
 	print "Got Similarity Matrix"
 
 	print "Getting top matches..."
-	matches_f = [ (ids[crt],dns[crt],ids[elem[0][0]],dns[elem[0][0]] elem[0][1])  for crt, elem in enumerate(ans)]
+	matches_f = [ (ids[crt],dns[crt],ids[elem[0][0]],dns[elem[0][0]], elem[0][1]) for crt, elem in enumerate(ans)]
 	matches_sorted = sorted(matches_f, key=lambda x:x[4], reverse=True) 
 
 	pickle.dump(matches_sorted, open("output_prod_matches","w"))
@@ -90,7 +90,7 @@ def main():
 	print "======================="
 	print matches_sorted[21000:21020]
 	
-	print len(matches_sorted)
+	print len(matches_sorted)	
 
 if __name__ == '__main__':
 	main()
