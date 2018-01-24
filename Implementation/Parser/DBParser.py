@@ -7,7 +7,7 @@ def get_ids_reviews(dbPath, domain):
 	ids = []
 	metadata_table = my_db.database_sqlite()
 	metadata_table.create_connection(dbPath)
-	metadata_table.set_table_name(domain+"_REV")
+	metadata_table.set_table_name(domain+"_REV_com")
 	#initialise a cursor in db
 	metadata_table.initialise_cursor()
 	#get next row in db
