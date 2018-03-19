@@ -1,0 +1,3 @@
+PROD_ID -> TITLE, STARS
+ID(Prod_id#Img_no) -> PROD_ID (ProdId), INFO (Link)
+ID(Prod_id#Desc_no) -> PROD_ID (ProdId), INFO (Description)
